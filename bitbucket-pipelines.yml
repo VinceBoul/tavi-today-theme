@@ -7,4 +7,4 @@ pipelines:
             variables:
               USER: 'bibucket'
               SERVER: 'ns382468.ip-46-105-99.eu'
-              REMOTE_PATH: '/home/docker/edwards/tavi/wp-content/plugins/tavi-today-theme/'
+              REMOTE_PATH: '/home/docker/edwards/tavi/wp-content/themes/tavi-today-theme/'
