@@ -3,6 +3,7 @@
     background-color: #BCCCD5;
 }
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item] .quadmenu-title,
+#quadmenu .tavi-quad-menu-item li[class~=quadmenu-item] .quadmenu-text,
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item] a
 {
     color: var(--dark-grey);
