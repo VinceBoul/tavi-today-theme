@@ -9,7 +9,7 @@
  Tags:         light, multi-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  tavi-today-theme
 */
-
+@import url('./tavi-quad-menu.css');
 :root {
     --edwards-tavi: #C8102E;
     --dark-grey: #505759;
@@ -42,4 +42,5 @@
 .icon-red-filter .elementor-button-icon {
     filter: invert(28%) sepia(49%) saturate(7119%) hue-rotate(337deg) brightness(76%) contrast(111%);
 }
+
 
