@@ -16,3 +16,11 @@
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item] a{
     color: var(--dark-grey);
 }
+#quadmenu.quadmenu-is-horizontal.js .quadmenu-container .quadmenu-navbar-header a.quadmenu-navbar-brand {
+    height: 85px !important; 
+}
+#quadmenu a.quadmenu-navbar-brand img {
+    
+    height: 85px !important; 
+    width: 85px !important;
+}
