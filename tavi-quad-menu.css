@@ -3,6 +3,7 @@
     background-color: #BCCCD5;
 }
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item] .quadmenu-title,
+#quadmenu .tavi-quad-menu-item li[class~=quadmenu-item] .quadmenu-text,
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item] a
 {
     color: var(--dark-grey);
@@ -14,4 +15,12 @@
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item] p>strong,
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item] a{
     color: var(--dark-grey);
+}
+#quadmenu.quadmenu-is-horizontal.js .quadmenu-container .quadmenu-navbar-header a.quadmenu-navbar-brand {
+    height: 85px !important; 
+}
+#quadmenu a.quadmenu-navbar-brand img {
+    
+    height: 85px !important; 
+    width: 85px !important;
 }
