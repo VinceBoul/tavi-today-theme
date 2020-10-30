@@ -10,6 +10,7 @@
  Text Domain:  tavi-today-theme
 */
 @import url('./tavi-quad-menu.css');
+@import url('./tavi-elementor-widget-style.css');
 :root {
     /*colors*/
     --edwards-tavi: #C8102E;
