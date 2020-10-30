@@ -11,13 +11,25 @@
 */
 @import url('./tavi-quad-menu.css');
 :root {
+    /*colors*/
     --edwards-tavi: #C8102E;
     --dark-grey: #505759;
     --light-blue: #D7E0E6;
     --neutral-blue: #7A99AC;
+
+    /*borders*/
+    --default-border-radius:8px;
+    --default-border:1px solid #505759;
+    
+    /*font*/
+    --default-line-height:24px;
+    --default-font-size:16px;
     color: var(--dark-grey);
 }
-
+.edward-tavi-text{
+    font-size: var(--default-font-size);
+    line-height: var(--default-line-height);
+}
 .edwards-tavi {
     color: var(--edwards-tavi);
 }
