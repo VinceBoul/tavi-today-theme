@@ -1,0 +1,17 @@
+/*
+* This file rewrite elementor widget's CSS properties
+*/
+/**REDESIGN ELEMENTOR WIDGET SEARCH**/
+.elementor-widget-search-form input[type="search"].elementor-search-form__input{
+    background-color: white;
+}
+.elementor-search-form__container:not(.elementor-search-form--full-screen){
+    border-radius: var(--default-border-radius);
+}
+ .elementor-widget-search-form button.elementor-search-form__submit {
+    background-color: var(--dark-grey);
+}
+div.elementor-element div.elementor-widget-container form.elementor-search-form[role="search"] .elementor-search-form__container{
+    border-radius: var(--default-border-radius);
+    border: var(--default-border);
+}
