@@ -27,7 +27,7 @@
 }
 
 #quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-nav{
-    text-align: left;
+    text-align: left !important;
     padding-left: 85px;
 }
 
@@ -48,7 +48,7 @@
     border-bottom: 5px solid transparent;
 }
 
-#quadmenu .quadmenu-item-level-0.current-menu-ancestor{
+#quadmenu .quadmenu-item-level-0.current-menu-ancestor, #quadmenu .quadmenu-item-level-0.current-menu-item{
     border-bottom: 5px solid white;
     background-color: #8AA6B6;
 }
