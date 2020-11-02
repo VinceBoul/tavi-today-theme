@@ -52,3 +52,8 @@
     border-bottom: 5px solid white;
     background-color: #8AA6B6;
 }
+
+.current-menu-item + #quadmenu .quadmenu-item-level-0.current-menu-ancestor {
+    border-bottom: 5px solid transparent;
+    background-color: transparent;
+}
