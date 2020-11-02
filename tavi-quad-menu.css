@@ -57,10 +57,3 @@
     border-bottom: 5px solid transparent !important;
     background-color: transparent !important;
 }
-
-#quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav li.quadmenu-dropdown>.quadmenu-dropdown-menu.quadmenu-dropdown-stretch-dropdown>ul, #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav li.quadmenu-dropdown>.quadmenu-dropdown-menu.quadmenu-dropdown-stretch-dropdown>.quadmenu-dropdown-background {
-    border-left: none !important;
-    border-right: none !important;
-    max-width: 1600px;
-    margin: auto;
-}
