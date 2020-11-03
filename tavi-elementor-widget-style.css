@@ -4,6 +4,7 @@
 /**REDESIGN ELEMENTOR WIDGET SEARCH**/
 .elementor-widget-search-form input[type="search"].elementor-search-form__input{
     background-color: white;
+    padding:5%;
 }
 .elementor-search-form__container:not(.elementor-search-form--full-screen){
     border-radius: var(--default-border-radius);

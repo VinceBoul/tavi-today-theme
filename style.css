@@ -11,6 +11,7 @@
 */
 @import url('./tavi-quad-menu.css');
 @import url('./tavi-elementor-widget-style.css');
+@import url('./tavi-animated-style.css');
 :root {
     /*colors*/
     --edwards-tavi: #C8102E;
@@ -26,14 +27,6 @@
     --default-line-height:24px;
     --default-font-size:16px;
     color: var(--dark-grey);
-}
-@keyframes change-bg-color-dg-to-wh{
-    from {background-color: var(--dark-grey);}
-    to {background-color: white;}
-}
-@keyframes change-bg-color-wh-to-dg{
-    from {background-color:white;}
-    to {background-color: var(--dark-grey);}
 }
 .edward-tavi-text{
     font-size: var(--default-font-size);

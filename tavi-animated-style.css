@@ -1,0 +1,35 @@
+@keyframes change-bg-color-dg-to-wh{
+    from {background-color: var(--dark-grey);}
+    to {background-color: white;}
+}
+@keyframes change-bg-color-wh-to-dg{
+    from {background-color:white;}
+    to {background-color: var(--dark-grey);}
+}
+.animated-take-double-size:hover{
+    transform:scale(2) ;
+    
+}
+.animated-take-double-size{
+    transition: transform 330ms ease-in-out;
+}
+.animated-take-an-half-size:hover{
+    transform:scale(1.5) ;
+    
+}
+.animated-take-an-half-size{
+    transition: transform 330ms ease-in-out;
+}
+.animated-take-an-tenth-size:hover{
+    transform:scale(1.1) ;
+    
+}
+.animated-take-an-tenth-size{
+    transition: transform 330ms ease-in-out;
+}
+.animated-take-an-fifth-size:hover{
+    transform:scale(1.2) ;
+}
+.animated-take-an-fifth-size{
+    transition: transform 330ms ease-in-out;
+}
