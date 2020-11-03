@@ -64,9 +64,8 @@
     filter: invert(28%) sepia(49%) saturate(7119%) hue-rotate(337deg) brightness(76%) contrast(111%);
 }
 
-.generic-spacing{
-    @media(min-width: 1140px){
+@media(min-width: 1140px){
+    .generic-spacing{
         padding-left: calc(50vw - 570px);
     }
-
 }
