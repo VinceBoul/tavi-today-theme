@@ -65,7 +65,11 @@
 }
 
 @media(min-width: 1140px){
-    .generic-spacing{
+    .generic-spacing-left{
         padding-left: calc(50vw - 570px);
+    }
+    
+    .generic-spacing-right{
+        padding-right: calc(50vw - 570px);
     }
 }
