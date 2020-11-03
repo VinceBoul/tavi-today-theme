@@ -24,6 +24,8 @@
     
     height: 85px !important; 
     width: 85px !important;
+    max-width: 85px;
+    max-height: 85px;
 }
 
 #quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-nav{
@@ -33,11 +35,11 @@
 
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-brand > img{
     position: absolute;
-    top: 50%;
+    top: 20%;
     right: -11px;
     width: 85px;
     height: auto;
-    z-index: 100000;
+    z-index: 1000000 !important;
 }
 
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item>.quadmenu-dropdown-menu{
