@@ -57,3 +57,7 @@
     border-bottom: 5px solid transparent !important;
     background-color: transparent !important;
 }
+
+.quadmenu-sticky-top .quadmenu-navbar-brand.img{
+    visibility: hidden;
+}
