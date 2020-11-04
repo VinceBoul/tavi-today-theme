@@ -193,3 +193,11 @@
 .elementor-active{
     border: none;
 }
+
+.elementor-tab-desktop-title.elementor-active{
+    border-bottom: 2px solid silver !important;
+}
+
+.elementor-tabs-wrapper{
+    border-bottom: 1px solid silver;
+}
