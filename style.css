@@ -179,3 +179,17 @@
 }
 .calendar:before{left:20px;}	
 .calendar:after{right:20px;}
+
+.elementor-accordion-item{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.elementor-accordion-item:last-of-type{
+    border-bottom: none;
+}
+
+.elementor-active{
+    border: none;
+}
