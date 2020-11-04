@@ -135,7 +135,9 @@
 	width:120px;
 	background: transparent;
     border-top: solid 10px silver;
-	font:bold 30px/60px;
+	font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
 	text-align:center;
 	color:#000;
 	position:absolute;
@@ -145,7 +147,8 @@
 
 .calendar em{
 	display:block;
-	font:12px/30px;
+	font-size: 12px;
+    line-height: 30px;
 	color:#000;
 	background: transparent;
 }
