@@ -22,7 +22,11 @@
     /*borders*/
     --default-border-radius:8px;
     --default-border:1px solid #505759;
-
+    /*box-shadow*/
+    --box-shadow-primary-grey: 3px 3px #898D8D, 
+    3px -3px #898D8D,
+    -3px 3px #898D8D,
+    -3px -3px #898D8D;
     /*font*/
     --default-line-height:24px;
     --default-font-size:16px;
