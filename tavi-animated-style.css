@@ -6,30 +6,63 @@
     from {background-color:white;}
     to {background-color: var(--dark-grey);}
 }
+@keyframes shadow-disappear-pg{
+    from{
+        box-shadow: var(--box-shadow-primary-grey);
+    } to {
+        box-shadow: 0px 0px  #000000, 
+                0px -0px  #000000,
+                -0px 0px #000000,
+                -0px -0px #000000;
+    }
+}
+@keyframes shadow-reappear-pg{
+    from{
+        box-shadow: 0px 0px  #000000 , 
+                0px -0px  #000000,
+                -0px 0px #000000,
+                -0px -0px  #000000;
+    } to {
+        box-shadow: var(--box-shadow-primary-grey);
+    }
+}
 .animated-take-double-size:hover{
+    
+    -webkit-transform:scale(2) ;
     transform:scale(2) ;
     
 }
 .animated-take-double-size{
+    -webkit-transition: -webkit-transform 330ms ease-in-out;
     transition: transform 330ms ease-in-out;
-}
-.animated-take-an-half-size:hover{
-    transform:scale(1.5) ;
     
 }
-.animated-take-an-half-size{
+.animated-take-an-half-size:hover{
+    
+    -webkit-transform:scale(1.5) ;
+    transform:scale(1.5) ;
+}
+.animated-take-an-half-size{ 
+    -webkit-transition: -webkit-transform 330ms ease-in-out;
     transition: transform 330ms ease-in-out;
 }
 .animated-take-an-tenth-size:hover{
-    transform:scale(1.1) ;
     
+    -webkit-transform:scale(1.1) ;
+    transform:scale(1.1) ;
 }
 .animated-take-an-tenth-size{
+    
+    -webkit-transition: -webkit-transform 330ms ease-in-out;
     transition: transform 330ms ease-in-out;
 }
 .animated-take-an-fifth-size:hover{
+    
+    -webkit-transform:scale(1.2) ;
     transform:scale(1.2) ;
 }
 .animated-take-an-fifth-size{
+    
+    -webkit-transition: -webkit-transform 330ms ease-in-out;
     transition: transform 330ms ease-in-out;
 }
