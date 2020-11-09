@@ -22,24 +22,20 @@
 }
 #quadmenu a.quadmenu-navbar-brand img {
     
-    height: 87px !important; 
-    width: 114px !important;
-    max-width: 114px;
-    max-height: 87px;
+    height: 154px !important;
+    width: auto !important;
+    max-width: 200px;
+    max-height: 300px;
+    object-fit: cover;
+    z-index: 1000000 !important;
+    position: absolute;
+    top: -32px;
+    right: -11px;
 }
 
 #quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-nav{
     text-align: left !important;
     padding-left: 85px;
-}
-
-#quadmenu.quadmenu-default_theme .quadmenu-navbar-brand > img{
-    position: absolute;
-    top: 10%;
-    right: -11px;
-    width: 85px;
-    height: auto;
-    z-index: 1000000 !important;
 }
 
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item>.quadmenu-dropdown-menu{
