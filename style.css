@@ -67,6 +67,8 @@
     }
 }
 
+/** CSS curly brace */
+
 #curly-brace
 {
   width: 300px;
@@ -127,6 +129,7 @@
   margin-top: -30px;
 }
 
+/** CSS Calendar */
 
 .calendar{
     margin: 0 12.5%;
@@ -180,6 +183,8 @@
 .calendar:before{left:20px;}	
 .calendar:after{right:20px;}
 
+/** Custom accordion style */
+
 .elementor-accordion-item{
     border-right: none;
     border-top: none;
@@ -194,10 +199,28 @@
     border: none;
 }
 
+/** Custom tab style */
+
 .elementor-tab-desktop-title.elementor-active{
     border-bottom: 2px solid silver !important;
 }
 
 .elementor-tabs-wrapper{
     border-bottom: 1px solid silver;
+}
+
+/** Custom list style */
+
+.elementor-text-editor ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.elementor-text-editor ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgba(80, 87, 89, 0.5); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
