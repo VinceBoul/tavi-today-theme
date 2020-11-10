@@ -217,6 +217,7 @@
 /** Custom list style */
 
 .elementor-text-editor ul {
+  margin-left: 1em !important;
   list-style: none; /* Remove default bullets */
 }
 
