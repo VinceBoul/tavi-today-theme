@@ -12,6 +12,7 @@
 @import url('./tavi-quad-menu.css');
 @import url('./tavi-elementor-widget-style.css');
 @import url('./tavi-animated-style.css');
+@import url('./tavi-media-queries.css');
 :root {
     /*colors*/
     --edwards-tavi: #C8102E;
@@ -29,9 +30,17 @@
     -3px 3px #898D8D,
     -3px -3px #898D8D;
     /*font*/
+   
     --default-line-height:24px;
-    --default-font-size:16px;
+
+    
+    
     color: var(--dark-grey);
+    
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .edward-tavi-text{
     font-size: var(--default-font-size);
@@ -61,5 +70,6 @@
 .icon-red-filter .elementor-button-icon {
     filter: invert(28%) sepia(49%) saturate(7119%) hue-rotate(337deg) brightness(76%) contrast(111%);
 }
+
 
 

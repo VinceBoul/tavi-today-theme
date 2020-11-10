@@ -1,0 +1,328 @@
+:root{
+    --default-font-size:1rem;
+    --second-font-size:14px;
+    --high-font-size:20px;
+}
+@media (orientation: portrait) {
+    /*SEARCH FORM WIDGET*/
+    .search-form{
+        width:100%;
+        display:inline-block;
+    }
+    .elementor-element.elementor-widget.elementor-widget-Input_Switch_Line_WHT,
+    .elementor-element.elementor-widget.elementor-widget-SelectInputFormModel,
+    .elementor-element.elementor-widget.elementor-widget-search-form,
+    .search-form-container .search-form .search-form-reset{
+        width:60%;
+    }
+    .search-form-container .search-form .search-form-reset{
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+@media (orientation: landscape) {
+    /*SEARCH FORM WIDGET*/
+    .search-form{
+        display:flex;
+    }
+    .elementor-element.elementor-widget.elementor-widget-Input_Switch_Line_WHT,
+    .elementor-element.elementor-widget.elementor-widget-SelectInputFormModel,
+    .elementor-element.elementor-widget.elementor-widget-search-form{
+        width:20%;
+    }
+    .search-form-container .search-form .search-form-reset{
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+}
+/************************************************************************************************************
+* PART MOBILE                                                                                               *
+*************************************************************************************************************/
+@media /*screen 
+    and  */(min-width: 360px) and (max-width: 414px) 
+    and  (min-height: 640px) and (max-height: 780px){
+        :root{
+            --default-font-size:13px;
+            --second-font-size:12px;
+        }
+        /** CARDVIEW WIDGET*/
+        .cardview{
+            height: 282px;
+        }
+        .cardview-container{
+            width:180px;
+        }
+        .square-white-box{
+            height:150px;
+            width:150px;
+        }
+        .square-white-box-line-content{
+            display:block;
+            margin-left: auto;
+            margin-right:auto ;
+        }
+}
+@media  screen and (min-height: 360px) and (max-height: 414px)   and (orientation:landscape){
+        :root{
+            --default-font-size:13px;
+            --second-font-size:12px;
+        }
+        /** CARDVIEW WIDGET*/
+        .cardview{
+            height: 282px;
+        }
+        .cardview-container{
+            width:180px;
+        }
+        .square-white-box{
+            height:150px;
+            width:150px;
+        }
+        .square-white-box-line-content{
+            display:block;
+            margin-left: auto;
+            margin-right:auto ;
+        }
+}
+
+@media /*screen 
+    and  */(min-width: 375px) and (max-width: 550px) 
+    and  (min-height: 720px) and (max-height: 900px){
+        :root{
+            --default-font-size:14px;
+            --second-font-size:12px;
+        }
+        /** CARDVIEW WIDGET*/
+        .cardview{
+            height: 282px;
+        }
+        .cardview-container{
+            width:180px;
+        }
+        .square-white-box{
+            height:150px;
+            width:150px;
+        }
+        .square-white-box-line-content{
+            display:block;
+            margin-left: auto;
+            margin-right:auto ;
+        }
+}
+@media  screen and (min-height: 375px) and (max-height: 550px)  and (orientation:landscape){
+        :root{
+            --default-font-size:14px;
+            --second-font-size:12px;
+        }
+        /** CARDVIEW WIDGET*/
+        .cardview{
+            height: 282px;
+        }
+        .cardview-container{
+            width:180px;
+        }
+        .square-white-box{
+            height:160px;
+            width:160px;
+        }
+        .square-white-box-line-content{
+            display:block;
+            margin-left: auto;
+            margin-right:auto ;
+        }
+        
+}
+
+/************************************************************************************************************
+* PART TABLET                                                                                               *
+*************************************************************************************************************/
+
+@media /*screen 
+    and  */(min-width: 600px) and (max-width: 900px) 
+    and  (min-height: 720px) and (max-height: 1200px),
+    screen and (min-width: 600px) and (max-width: 900px) and (orientation:portrait){
+        :root{
+            --default-font-size:14px;
+            --second-font-size:12px;
+        }
+        /** CARDVIEW WIDGET*/
+        .cardview{
+            height: 329px;
+        }
+        .cardview-container{
+            width:210px;
+        }
+        .square-white-box{
+            height:160px;
+            width:160px;
+        }
+        
+        .square-white-box-line-content{
+            display:flex;
+        }
+    
+}
+@media screen and (min-height: 600px) and (max-height: 900px) and (orientation:landscape){
+        :root{
+            --default-font-size:14px;
+            --second-font-size:12px;
+        }
+        /** CARDVIEW WIDGET*/
+        .cardview{
+            height: 329px;
+        }
+        .cardview-container{
+            width:210px;
+        }
+        .square-white-box{
+            height:160px;
+            width:160px;
+        }
+        
+        .square-white-box-line-content{
+            display:flex;
+        }
+}
+
+@media /*screen 
+    and  */(min-width: 800px) and (max-width: 1000px) 
+    and  (min-height: 900px) and (max-height: 1200px),
+    screen and (min-width: 800px) and (max-width: 1000px) and (orientation:portrait){
+        :root{
+            --default-font-size:15px;
+            --second-font-size:13px;
+        }
+        /** CARDVIEW WIDGET*/
+        
+        .cardview{
+            height: 329px;
+        }
+        .cardview-container{
+            width:210px;
+        }
+        .square-white-box{
+            height:160px;
+            width:160px;
+        }
+        
+        .square-white-box-line-content{
+            display:flex;
+        }
+}
+@media screen and  (min-height: 800px) and (max-height: 1000px) and (orientation:landscape){
+        :root{
+            --default-font-size:15px;
+            --second-font-size:13px;
+        }
+        /** CARDVIEW WIDGET*/
+        
+        .cardview{
+            height: 329px;
+        }
+        .cardview-container{
+            width:210px;
+        }
+        .square-white-box{
+            height:160px;
+            width:160px;
+        }
+        .square-white-box-line-content{
+            display:flex;
+        }
+}
+
+@media /*screen 
+    and  */ (min-width: 1000px) and (max-width: 1400px)
+    and (min-height: 750px) and (max-height: 1100px), 
+    screen and (min-width: 1000px) and (max-width: 1400px) and (orientation:portrait){
+        :root{
+            --default-font-size:15px;
+            --second-font-size:12px;
+        }
+        /** CARDVIEW WIDGET*/
+       
+        .cardview{
+            height: 329px;
+        }
+        .cardview-container{
+            width:210px;
+        }
+        .square-white-box{
+            height:160px;
+            width:160px;
+        }
+        .square-white-box-line-content{
+            display:flex;
+        }
+    
+}
+@media screen and (min-height: 1000px) and (max-height: 1400px) and (orientation: landscape){
+        :root{
+            --default-font-size:15px;
+            --second-font-size:12px;
+        }
+        /** CARDVIEW WIDGET*/
+       
+        .cardview{
+            height: 329px;
+        }
+        .cardview-container{
+            width:210px;
+        }
+        .square-white-box{
+            height:160px;
+            width:160px;
+        }
+        .square-white-box-line-content{
+            display:flex;
+        }
+}
+/************************************************************************************************************
+* PART COMPUTER                                                                                             *
+*************************************************************************************************************/
+@media /*screen 
+    and  */(min-width: 1280px) and (max-width: 1600px) 
+    and  (min-height: 720px) and (max-height: 900px) {
+        :root{
+            --default-font-size:16px;
+            --second-font-size:14px;
+        }
+        /** CARDVIEW WIDGET*/
+        .cardview{
+            height: 470px;
+        }
+        .cardview-container{
+            width:300px;
+        }
+        
+        .square-white-box{
+            height:170px;
+            width:170px;
+        }
+        .square-white-box-line-content{
+            display:flex;
+        }
+}
+@media /* screen 
+    and  */(min-width: 1920px) 
+    and  (min-height: 1100px){
+        :root{
+            --default-font-size:18px;
+            --second-font-size:15px;
+        }
+        /** CARDVIEW WIDGET*/
+        .cardview{
+            height: 470px;
+        }
+        .cardview-container{
+            width:300px;
+        }
+
+        .square-white-box{
+            height:170px;
+            width:170px;
+        }
+        .square-white-box-line-content{
+            display:flex;
+        }
+}
