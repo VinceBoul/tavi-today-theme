@@ -1,3 +1,19 @@
+/*
+    Secondary menu
+*/
+#quadmenu_0{
+    width: 1140px;
+    margin: auto;
+    text-align: right;
+}
+
+#quadmenu_0 ul.quadmenu-navbar-nav{
+    text-align: right !important;
+}
+/*
+    Primary Manu
+*/
+
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item],
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item]{
     background-color: #BCCCD5;
