@@ -2,7 +2,7 @@
     Secondary menu
 */
 #quadmenu_0{
-    width: 1140px;
+    width: 1140px !important;
     margin: auto;
     text-align: right;
 }
@@ -13,6 +13,10 @@
 /*
     Primary Manu
 */
+
+#quadmenu_1{
+    padding-left: 136px;
+}
 
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item],
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item]{
@@ -50,7 +54,7 @@
     z-index: 1000000 !important;
     position: absolute;
     top: -11px;
-    right: 117px;
+    right: -29px;
 }
 
 #quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-nav{
