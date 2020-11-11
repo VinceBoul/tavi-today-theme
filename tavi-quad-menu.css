@@ -15,7 +15,7 @@
 */
 
 #quadmenu_1{
-    padding-left: 136px;
+    padding-left: 136px !important;
 }
 
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item],
@@ -54,7 +54,7 @@
     z-index: 1000000 !important;
     position: absolute;
     top: -11px;
-    right: -29px;
+    right: -87px;
 }
 
 #quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-nav{
