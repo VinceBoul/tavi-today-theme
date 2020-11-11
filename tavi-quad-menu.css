@@ -33,6 +33,10 @@
     color: var(--dark-grey);
 }
 
+.quadmenu-navbar-header{
+    width: 0;
+}
+
 #quadmenu.quadmenu-is-horizontal.js .quadmenu-container .quadmenu-navbar-header a.quadmenu-navbar-brand {
 
 }
