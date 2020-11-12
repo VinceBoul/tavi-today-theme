@@ -244,9 +244,9 @@
 }
 
 h1, h2{
-    margin-bottom: 32px;
+    margin-bottom: 32px !important;
 }
 
 h3, h4{
-    margin-bottom: 16px;
+    margin-bottom: 16px !important;
 }
