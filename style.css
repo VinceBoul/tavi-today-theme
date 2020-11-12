@@ -72,6 +72,18 @@
     }
 }
 
+@media(max-width: 1140px){
+    .generic-spacing-left{
+        padding-left: 25px;
+        padding-right: 15px;
+    }
+    
+    .generic-spacing-right{
+        padding-right: 25px;
+        padding-left: 15px;
+    }
+}
+
 /** CSS curly brace */
 
 #curly-brace
@@ -229,4 +241,12 @@
   
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+h1, h2{
+    margin-bottom: 32px;
+}
+
+h3, h4{
+    margin-bottom: 16px;
 }
