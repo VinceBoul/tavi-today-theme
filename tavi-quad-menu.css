@@ -82,3 +82,8 @@
 .quadmenu-sticky-top .quadmenu-navbar-brand.img{
     visibility: hidden;
 }
+
+.elementor-lightbox-image{
+    background-color: white;
+    padding: 2%;
+}
