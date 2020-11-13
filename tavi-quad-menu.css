@@ -118,3 +118,7 @@ input.search-field{
 .search-submit{
     display: none
 }
+
+.secondary-navigation {
+    background-color: var(--neutral-blue) !important;
+}
