@@ -130,3 +130,11 @@ input.search-field{
 #quadmenu{
     z-index: inherit !important;
 }
+
+a.elementor-button.elementor-button--checkout.elementor-size-md{
+    display:none;
+}
+
+.elementor-menu-cart__subtotal{
+    display: none;
+}
