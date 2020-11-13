@@ -122,3 +122,11 @@ input.search-field{
 .secondary-navigation {
     background-color: var(--neutral-blue) !important;
 }
+
+#quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-header{
+    z-index: 99999;
+}
+
+#quadmenu{
+    z-index: inherit !important;
+}
