@@ -9,6 +9,11 @@ function theme_enqueue_styles() {
     wp_enqueue_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js');
     wp_enqueue_script('BootstrapJS', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js');
     wp_enqueue_script('font-awesome-JS', 'https://kit.fontawesome.com/6a46a5ec76.js');
+
+  
+  wp_enqueue_script('flickity-js', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js');
+  wp_enqueue_style('flickity-css', 'https://unpkg.com/flickity@2/dist/flickity.min.css');
+  
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
