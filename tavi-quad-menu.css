@@ -135,6 +135,14 @@ a.elementor-button.elementor-button--checkout.elementor-size-md{
     display:none;
 }
 
-.elementor-menu-cart__subtotal{
+.elementor-menu-cart__subtotal, .elementor-menu-cart__product-price.product-price, .elementor-menu-cart__product-remove.product-remove, .quadmenu-bottom-text, .elementor-menu-cart__product-price.product-price{
     display: none;
+}
+
+span.elementor-button-text{
+    border: 1px solid white;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 15px;
 }
