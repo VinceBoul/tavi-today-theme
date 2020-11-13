@@ -127,7 +127,7 @@ input.search-field{
     z-index: 99999;
 }
 
-#quadmenu{
+#quadmenu:not(.quadmenu-sticky-top){
     z-index: inherit !important;
 }
 
