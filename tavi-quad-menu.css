@@ -139,6 +139,10 @@ a.elementor-button.elementor-button--checkout.elementor-size-md{
     display: none;
 }
 
+.quadmenu-dropdown-menu .quadmenu-item-object-column:nth-of-type(2) .quadmenu-item:first-of-type .quadmenu-text{
+    font-weight: 700;
+}
+
 /*span.elementor-button-text{
     border: 1px solid white;
     width: 100%;
