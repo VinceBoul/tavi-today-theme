@@ -258,6 +258,7 @@ h3, h4{
 }
 
 .swiper-pagination-bullet-active{
+    padding-top: 7px !important;
     height:15px !important;
     width: 15px !important;
 }
