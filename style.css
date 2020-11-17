@@ -65,10 +65,12 @@
 @media(min-width: 1140px){
     .generic-spacing-left{
         padding-left: calc(50vw - 570px);
+        padding-right: 15px;
     }
     
     .generic-spacing-right{
         padding-right: calc(50vw - 570px);
+        padding-left: 15px;
     }
 }
 
