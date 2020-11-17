@@ -154,6 +154,36 @@ a.elementor-button.elementor-button--checkout.elementor-size-md{
     color: #898D8D;
 }
 
+nav.secondary-navigation{
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    background-color: var(--neutral-blue);
+}
+
+.elementor-location-header{
+    position: fixed;
+    top: 40px;
+    z-index: 99999;
+}
+
+.wpadminbar + .elementor-location-header{
+    top: 72px;  
+}
+
+.wpadminbar + nav.secondary-navigation{
+    top: 32px;
+}
+
+#page{
+    margin-top: 100px;
+}
+
+.wpadminbar + #page{
+    margin-top: 132px;
+}
+
 /*span.elementor-button-text{
     border: 1px solid white;
     width: 100%;
