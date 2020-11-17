@@ -46,6 +46,7 @@
 #quadmenu.quadmenu-is-horizontal.js .quadmenu-container .quadmenu-navbar-header a.quadmenu-navbar-brand {
 
 }
+media(min-width: 769px){
 #quadmenu a.quadmenu-navbar-brand img {
     
     height: 114px !important;
@@ -65,6 +66,7 @@
 
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item>.quadmenu-dropdown-menu{
     z-index: auto;
+}
 }
 
 #quadmenu .quadmenu-item-level-0{
