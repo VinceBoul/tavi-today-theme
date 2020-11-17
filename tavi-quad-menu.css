@@ -1,3 +1,4 @@
+@media(min-width: 769px){
 /*
     Secondary menu
 */
@@ -16,6 +17,7 @@
 
 #quadmenu_1{
     padding-left: 136px !important;
+}
 }
 
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item],
