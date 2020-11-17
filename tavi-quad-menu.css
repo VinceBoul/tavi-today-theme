@@ -168,11 +168,11 @@ nav.secondary-navigation{
     z-index: 99999;
 }
 
-#wpadminbar + .elementor-location-header{
+#wpadminbar ~ .elementor-location-header{
     top: 72px;  
 }
 
-#wpadminbar + nav.secondary-navigation{
+#wpadminbar ~ nav.secondary-navigation{
     top: 32px;
 }
 
@@ -180,7 +180,7 @@ nav.secondary-navigation{
     margin-top: 100px;
 }
 
-#wpadminbar + #page{
+#wpadminbar ~ #page{
     margin-top: 132px;
 }
 
