@@ -252,3 +252,7 @@ h1, h2{
 h3, h4{
     margin-bottom: 16px !important;
 }
+
+.drop-shadow:hover{
+    filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.25));
+}
