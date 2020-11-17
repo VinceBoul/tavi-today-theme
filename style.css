@@ -256,3 +256,8 @@ h3, h4{
 .drop-shadow:hover{
     filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.25));
 }
+
+.swiper-pagination-bullet-active{
+    height:15px !important;
+    width: 15px !important;
+}
