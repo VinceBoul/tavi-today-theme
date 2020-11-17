@@ -180,6 +180,10 @@ nav.secondary-navigation{
     margin-top: 100px;
 }
 
+.quadmenu-dropdown-menu {
+    padding-top: 40px;
+}
+
 /*span.elementor-button-text{
     border: 1px solid white;
     width: 100%;
