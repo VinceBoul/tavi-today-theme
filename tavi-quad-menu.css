@@ -18,6 +18,10 @@
 #quadmenu_1{
     padding-left: 136px !important;
 }
+
+.quadmenu-sticky-wrapper #quadmenu_1{
+    padding-left: calc(50vw - 570px) !important;
+}
 }
 
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item],
