@@ -1,4 +1,3 @@
-@media(min-width: 769px){
 /*
     Secondary menu
 */
@@ -18,7 +17,7 @@
 #quadmenu_1{
     padding-left: 136px !important;
 }
-}
+
 
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item],
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item]{
@@ -184,11 +183,11 @@ nav.secondary-navigation{
 #page{
     margin-top: 100px;
 }
-
+*/
 #quadmenu.quadmenu-default_theme.quadmenu-is-horizontal .quadmenu-navbar-nav > li > .quadmenu-dropdown-menu {
     padding-top: 40px;
 }
-}*/
+//}
 /*span.elementor-button-text{
     border: 1px solid white;
     width: 100%;
