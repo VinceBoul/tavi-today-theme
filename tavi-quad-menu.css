@@ -192,7 +192,12 @@ nav.secondary-navigation{
 #quadmenu.quadmenu-default_theme.quadmenu-is-horizontal .quadmenu-navbar-nav > li > .quadmenu-dropdown-menu {
     padding-top: 40px;
 }
-//}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item>a>.quadmenu-item-content>.quadmenu-text{
+    text-transform: capitalize !important;
+}
+
+/*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
     width: 100%;
