@@ -1,6 +1,7 @@
 /*
     Secondary menu
 */
+@media(min-width: 769px){
 #quadmenu_0{
     width: 1140px !important;
     margin: auto;
@@ -17,7 +18,7 @@
 #quadmenu_1{
     padding-left: 136px !important;
 }
-
+}
 
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item],
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item]{
@@ -45,7 +46,7 @@
 #quadmenu.quadmenu-is-horizontal.js .quadmenu-container .quadmenu-navbar-header a.quadmenu-navbar-brand {
 
 }
-media(min-width: 769px){
+@media(min-width: 769px){
 #quadmenu a.quadmenu-navbar-brand img {
     
     height: 114px !important;
