@@ -158,7 +158,7 @@ a.elementor-button.elementor-button--checkout.elementor-size-md{
     color: #898D8D;
 }
 
-@media(min-width: 769px){
+/*@media(min-width: 769px){
 nav.secondary-navigation{
     position: fixed;
     top: 0;
@@ -188,7 +188,7 @@ nav.secondary-navigation{
 #quadmenu.quadmenu-default_theme.quadmenu-is-horizontal .quadmenu-navbar-nav > li > .quadmenu-dropdown-menu {
     padding-top: 40px;
 }
-}
+}*/
 /*span.elementor-button-text{
     border: 1px solid white;
     width: 100%;
