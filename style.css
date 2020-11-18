@@ -266,5 +266,5 @@ h3, h4{
 
 .custom-slider .swiper-slide-contents{
     width: 100%;
-    margin-left: calc(50vw - 520px);
+    margin-left: calc(50vw - 520px) !important;
 }
