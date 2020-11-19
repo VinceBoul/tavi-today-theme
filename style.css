@@ -267,7 +267,7 @@ h3, h4{
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{
-    margin: -37px 6px !important;
+    margin: -32px 6px !important;
     height:15px !important;
     width: 15px !important;
 }
