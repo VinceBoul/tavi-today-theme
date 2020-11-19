@@ -61,7 +61,7 @@
     z-index: 1000000 !important;
     position: absolute;
     top: -11px;
-    right: -87px;
+    right: -95px;
 }
 
 #quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-nav{
@@ -132,7 +132,7 @@ input.search-field{
 }
 
 #quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-header{
-    z-index: 99999;
+    z-index: 999999;
 }
 
 #quadmenu:not(.quadmenu-sticky-top){
@@ -197,6 +197,13 @@ nav.secondary-navigation{
     text-transform: capitalize !important;
 }
 
+.widget_shopping_cart a{
+    color: white;
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item>.quadmenu-dropdown-menu{
+    z-index: 100000 !important;
+}
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
