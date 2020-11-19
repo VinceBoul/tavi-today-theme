@@ -132,7 +132,7 @@ input.search-field{
 }
 
 #quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-header{
-    z-index: 99999;
+    z-index: 999999;
 }
 
 #quadmenu:not(.quadmenu-sticky-top){
