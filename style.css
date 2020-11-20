@@ -272,3 +272,36 @@ h3, h4{
     height:15px !important;
     width: 15px !important;
 }
+
+/** Marketo section */
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    background: #7A99AC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#mktoForm_8968{
+    display: flex;
+}
+
+.mktoButtonWrap.mktoSimple{
+    margin-left: 20px !important;
+}
+
+.mktoForm.mktoHasWidth.mktoLayoutLeft{
+    width: 100% !important;
+}
+
+.mktoFormRow{
+    width: 0;
+}
+
+.mktoButtonRow, .mktoFormRow:nth-last-of-type(-n+3){
+    flex: 1;
+}
+
+.mktoForm .mktoFieldWrap{
+    float: none;
+}
