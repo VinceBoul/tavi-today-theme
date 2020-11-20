@@ -276,7 +276,7 @@ h3, h4{
 /** Marketo section */
 
 .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
-    background: #7A99AC;
+    background: #7A99AC !important;
     border: none;
     border-radius: 5px;
     padding: 10px;
