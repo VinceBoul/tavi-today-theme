@@ -273,18 +273,6 @@ nav.secondary-navigation{
     position: absolute;
 }
 
-.mktoForm .mktoLabel{
-    margin-bottom: 10px;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: "Merriweather Sans", "Arial";
-}
-.mktoOffset{
-    width: 0 !important;
-}
-#confirmnewsletterform, .mktoGutter{
-    height: 0;
-}
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;

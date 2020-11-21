@@ -367,3 +367,21 @@ h4 {
     font-weight: bold;
 
 }
+
+.mktoForm .mktoLabel{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Merriweather Sans", "Arial";
+}
+
+.mktoForm .mktoFormCol{
+    margin-right: 10px;
+}
+
+.mktoOffset{
+    width: 0 !important;
+}
+#confirmnewsletterform, .mktoGutter{
+    height: 0;
+}
