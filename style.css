@@ -332,6 +332,20 @@ h4 {
 .mktoForm textarea.mktoField,
 .mktoForm select.mktoField {
     width: 100% !important;
-    padding-top: 20px !important;
+    padding: 10px 10px !important;
     border-radius: 5px !important;
+}
+
+.mktoForm select {
+    padding: 10px 10px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: transparent;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
 }
