@@ -230,6 +230,16 @@ nav.secondary-navigation{
     display: none;
 }
 
+#quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav > li.quadmenu-item-type-cart > .quadmenu-dropdown-menu{
+    padding: 15px !important;
+    border-radius: 5px;
+}
+
+.elementor-menu-cart__footer-buttons a::before{
+    content: 'Go to Basket';
+    border-radius: 5px;
+    border: 1px solid white;
+}
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
