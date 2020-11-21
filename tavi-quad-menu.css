@@ -236,8 +236,8 @@ nav.secondary-navigation{
 }
 
 .elementor-menu-cart__footer-buttons a {
-    text-align: center;
-    height:20px;
+    text-align: center !important;
+    height:20px !important;
 }
 
 .elementor-menu-cart__footer-buttons a span{
@@ -254,7 +254,7 @@ nav.secondary-navigation{
     line-height: 18px;
 }
 
-.widget_shopping_cart{
+.widget_shopping_cart::before{
     content: 'Resources order';
 }
 
