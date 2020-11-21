@@ -226,7 +226,7 @@ nav.secondary-navigation{
     border-radius: 5px;
 }
 
-#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form input:focus + span{
+#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form:focus > span{
     display: none;
 }
 
