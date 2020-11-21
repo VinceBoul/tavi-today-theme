@@ -311,7 +311,7 @@ h4 {
     width: 0;
 }
 
-.mktoButtonRow, .mktoFormRow:nth-last-of-type(-n+3){
+.mktoButtonRow, .mktoFormRow:nth-last-of-type(3-n){
     flex: 1;
 }
 
