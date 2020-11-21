@@ -237,16 +237,25 @@ nav.secondary-navigation{
 
 .elementor-menu-cart__footer-buttons a {
     text-align: center;
+    height:20px;
 }
 
 .elementor-menu-cart__footer-buttons a span{
     display: none;
 }
 
+.elementor-menu-cart__product:not(:last-of-type), .elementor-menu-cart__products, .elementor-menu-cart__subtotal{
+    border:none !important;
+}
+
 #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav>li.quadmenu-item-type-cart>.quadmenu-dropdown-menu {
     width: 240px !important;
     max-width: 100%;
     line-height: 18px;
+}
+
+.widget_shopping_cart{
+    content: 'Resources order';
 }
 
 .elementor-menu-cart__footer-buttons a::before{
