@@ -8,6 +8,7 @@
  Version:      1.0.0
  Tags:         light, multi-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  tavi-today-theme
+ Bitbucket Theme URI: https://jeremyvoisin:aBhHC59hpfnhcQyv3nqR@bitbucket.org/edwards-tavi/tavi-today-theme.git
 */
 @import url('./tavi-quad-menu.css');
 @import url('./tavi-elementor-widget-style.css');
@@ -283,4 +284,37 @@ h4 {
     margin: -32px 6px !important;
     height:15px !important;
     width: 15px !important;
+}
+
+/** Marketo section */
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    background: #7A99AC !important;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#mktoForm_8968{
+    display: flex;
+}
+
+.mktoButtonWrap.mktoSimple{
+    margin-left: 20px !important;
+}
+
+.mktoForm.mktoHasWidth.mktoLayoutLeft{
+    width: 100% !important;
+}
+
+.mktoFormRow{
+    width: 0;
+}
+
+.mktoButtonRow, .mktoFormRow:nth-last-of-type(-n+3){
+    flex: 1;
+}
+
+.mktoForm .mktoFieldWrap{
+    float: none;
 }
