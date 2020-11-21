@@ -279,6 +279,10 @@ nav.secondary-navigation{
     line-height: 24px;
     font-family: "Merriweather Sans", "Arial";
 }
+
+#confirmnewsletterform, .mktoGutter{
+    height: 0;
+}
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
