@@ -280,7 +280,7 @@ nav.secondary-navigation{
     font-family: "Merriweather Sans", "Arial";
 }
 .mktoOffset{
-    width: 0;
+    width: 0 !important;
 }
 #confirmnewsletterform, .mktoGutter{
     height: 0;
