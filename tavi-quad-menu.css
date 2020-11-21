@@ -144,7 +144,7 @@ a.elementor-button.elementor-button--checkout.elementor-size-md{
 }
 
 .elementor-menu-cart__subtotal, .elementor-menu-cart__product-price.product-price, .elementor-menu-cart__product-remove.product-remove, .quadmenu-bottom-text, .elementor-menu-cart__product-price.product-price{
-    display: none;
+    display: none !important;
 }
 
 .quadmenu-dropdown-menu .quadmenu-item-object-column:nth-of-type(2) .quadmenu-item:first-of-type .quadmenu-text{
