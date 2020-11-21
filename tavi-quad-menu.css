@@ -204,6 +204,19 @@ nav.secondary-navigation{
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item>.quadmenu-dropdown-menu{
     z-index: 100000 !important;
 }
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item input{
+    background-color: transparent !important;
+}
+
+#quadmenu .quadmenu-navbar-nav>li.quadmenu-item-type-search>form>.quadmenu-item-content>.quadmenu-icon{
+    left: 15px;
+    right: inherit !important;
+}
+#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form input{
+    margin-left: 20px;
+}
+
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
