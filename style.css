@@ -358,6 +358,7 @@ h4 {
 
 .mktoForm .mktoLabel[for='Email']{
     color: transparent;
+    width:1000px;
 }
 
 .mktoForm .mktoRequiredField label.mktoLabel[for='Email']:before{
