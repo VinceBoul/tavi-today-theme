@@ -351,3 +351,18 @@ h4 {
     background-position-x: 100%;
     background-position-y: 5px;
 }
+
+.mktoForm .mktoRequiredField .mktoAsterix{
+    display: none !important;
+}
+
+.mktoForm .mktoLabel[for='Email']{
+    color: transparent;
+}
+
+.mktoForm .mktoRequiredField label.mktoLabel[for='Email']:before{
+    color: black;
+    content: "Your email";
+    font-weight: bold;
+
+}
