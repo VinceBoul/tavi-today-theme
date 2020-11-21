@@ -47,9 +47,6 @@
     width: 0;
 }
 
-#quadmenu.quadmenu-is-horizontal.js .quadmenu-container .quadmenu-navbar-header a.quadmenu-navbar-brand {
-
-}
 @media(min-width: 769px){
 #quadmenu a.quadmenu-navbar-brand img {
     
