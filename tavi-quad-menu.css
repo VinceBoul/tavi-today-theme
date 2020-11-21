@@ -272,6 +272,13 @@ nav.secondary-navigation{
     right: 0;
     position: absolute;
 }
+
+.mktoForm .mktoLabel{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Merriweather Sans", "Arial";
+}
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
