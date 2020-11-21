@@ -254,6 +254,10 @@ nav.secondary-navigation{
     line-height: 18px;
 }
 
+.widget_shopping_cart_content{
+    margin-top: 20px;
+}
+
 .widget_shopping_cart::before{
     content: 'Resources order';
 }
