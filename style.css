@@ -70,24 +70,24 @@
 @media (min-width: 1140px) {
     .generic-spacing-left {
         padding-left: calc(50vw - 570px);
-        padding-right: 25px;
+        padding-right: 15px;
     }
 
     .generic-spacing-right {
         padding-right: calc(50vw - 570px);
-        padding-left: 25px;
+        padding-left: 15px;
     }
 }
 
 @media (max-width: 1140px) {
     .generic-spacing-left {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .generic-spacing-right {
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 }
 
