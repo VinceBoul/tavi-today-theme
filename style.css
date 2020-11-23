@@ -296,10 +296,14 @@ h4 {
 
 .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
     background: #7A99AC !important;
-    border: none;
+    border: none !important;
     border-radius: 5px;
     padding: 8px 30px !important;
     margin-top: 49px;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover{
+    background: var(--edwards-tavi);
 }
 
 #mktoForm_8968 {
@@ -345,7 +349,7 @@ h4 {
 }
 
 .mktoForm select {
-    padding: 10px 10px;
+    padding: 17px 10px;
     border: 1px solid silver;
     border-radius: 4px;
     background-color: transparent;
@@ -355,7 +359,7 @@ h4 {
     background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-position-y: 5px;
+    background-position-y: 13px;
 }
 
 .mktoForm .mktoRequiredField .mktoAsterix{
@@ -405,4 +409,22 @@ div#teconsent a::before {
 
 div#teconsent img {
     display: none;
+}
+
+@media(max-width: 768px){
+    #mktoForm_8968 {
+        flex-direction: column;
+    }
+
+    .mktoForm .mktoFormRow:nth-of-type(-n+3) {
+        width: 100%;
+    }
+
+    .mktoButtonWrap.mktoSimple {
+        margin-left: 0px !important;
+    }
+
+    .mktoForm .mktoButtonWrap.mktoSimple .mktoButton{
+        width: 100%;
+    }
 }
