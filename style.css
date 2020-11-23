@@ -385,3 +385,8 @@ h4 {
 #confirmnewsletterform, .mktoGutter{
     height: 0;
 }
+
+div#teconsent img::before {
+    content: "Cookie Policy";
+    width: 100%;
+}
