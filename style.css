@@ -85,12 +85,12 @@ body{
 
 @media (max-width: 1140px) {
     .generic-spacing-left {
-        padding-left: 25px;
+        padding-left: 15px;
         padding-right: 15px;
     }
 
     .generic-spacing-right {
-        padding-right: 25px;
+        padding-right: 15px;
         padding-left: 15px;
     }
 }
@@ -275,9 +275,15 @@ h4 {
     filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.25));
 }
 
-.custom-slider .swiper-slide-contents {
-    width: 100%;
-    margin-left: calc(50vw - 520px) !important;
+/**
+    Slider section
+ */
+
+@media(min-width: 768px) {
+    .custom-slider .swiper-slide-contents {
+        width: 100%;
+        margin-left: calc(50vw - 520px) !important;
+    }
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
@@ -294,10 +300,14 @@ h4 {
 
 .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
     background: #7A99AC !important;
-    border: none;
+    border: none !important;
     border-radius: 5px;
     padding: 8px 30px !important;
     margin-top: 49px;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover{
+    background: var(--edwards-tavi);
 }
 
 #mktoForm_8968 {
@@ -343,7 +353,7 @@ h4 {
 }
 
 .mktoForm select {
-    padding: 10px 10px;
+    padding: 17px 10px;
     border: 1px solid silver;
     border-radius: 4px;
     background-color: transparent;
@@ -353,7 +363,7 @@ h4 {
     background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-position-y: 5px;
+    background-position-y: 13px;
 }
 
 .mktoForm .mktoRequiredField .mktoAsterix{
@@ -388,4 +398,37 @@ h4 {
 }
 #confirmnewsletterform, .mktoGutter{
     height: 0;
+}
+
+div#teconsent a::before {
+    content: "Cookie Policy";
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+div#teconsent img {
+    display: none;
+}
+
+@media(max-width: 768px){
+    #mktoForm_8968 {
+        flex-direction: column;
+    }
+
+    .mktoForm .mktoFormRow:nth-of-type(-n+3) {
+        width: 100%;
+    }
+
+    .mktoButtonWrap.mktoSimple {
+        margin-left: 0px !important;
+    }
+
+    .mktoForm .mktoButtonWrap.mktoSimple .mktoButton{
+        width: 100%;
+    }
 }
