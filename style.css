@@ -470,7 +470,7 @@ a.other-page-link:hover, a.other-page-link:hover span{
     text-decoration: underline;
 }
 
-a.parent-page-link:hover, a.other-page-link:hover span{
-    color: #477896;;
+a.parent-page-link:hover, a.parent-page-link:hover span{
+    color: #477896 !important;
     text-decoration: underline;
 }
