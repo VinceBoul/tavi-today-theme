@@ -37,6 +37,10 @@
     color: var(--dark-grey);
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .edward-tavi-text {
     font-size: var(--default-font-size);
     line-height: var(--default-line-height);

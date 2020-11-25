@@ -19,6 +19,20 @@ function theme_enqueue_styles()
   
 }
 
+//Removes links
+add_filter( 'woocommerce_product_is_visible','product_invisible');
+function product_invisible(){
+    return false;
+}
+
+//Remove single page
+add_filter( 'woocommerce_register_post_type_product','hide_product_page',12,1);
+function hide_product_page($args){
+    $args["publicly_queryable"]=false;
+    $args["public"]=false;
+    return $args;
+}
+
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
 function tavi_today_register_elementor_core_locations($elementor_theme_manager)
