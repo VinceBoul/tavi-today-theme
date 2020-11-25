@@ -298,12 +298,12 @@ h4 {
     background: #7A99AC !important;
     border: none !important;
     border-radius: 5px;
-    padding: 8px 30px !important;
+    padding: 13px 30px !important;
     margin-top: 49px;
 }
 
 .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover{
-    background: var(--edwards-tavi);
+    background: var(--edwards-tavi) !important;
 }
 
 #mktoForm_8968 {
@@ -343,7 +343,7 @@ h4 {
 .mktoForm textarea.mktoField,
 .mktoForm select.mktoField {
     width: 100% !important;
-    padding: 10px 10px !important;
+    padding: 15px 10px !important;
     border-radius: 5px !important;
     background-color: transparent;
 }
@@ -427,4 +427,22 @@ div#teconsent img {
     .mktoForm .mktoButtonWrap.mktoSimple .mktoButton{
         width: 100%;
     }
+}
+
+/**
+    Rollover section
+ */
+
+a.action-link:hover{
+    color: var(--edwards-tavi) !important;
+}
+
+a.other-page-link:hover, a.other-page-link:hover span{
+    color: var(--edwards-tavi) !important;
+    text-decoration: underline;
+}
+
+a.parent-page-link:hover, a.other-page-link:hover span{
+    color: #477896;;
+    text-decoration: underline;
 }
