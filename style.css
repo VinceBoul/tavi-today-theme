@@ -454,6 +454,7 @@ a.button.wc-forward:before {
 
 div.woocommerce-message a.button{
     color: transparent;
+    margin-right: -85px;
 }
 
 /**
