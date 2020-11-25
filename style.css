@@ -461,18 +461,18 @@ div.woocommerce-message a.button{
     Rollover section
  */
 
-a.action-link:hover{
+a.action-link:hover, .action-link a:hover{
     color: var(--edwards-tavi) !important;
     background: none !important;
 }
 
-a.other-page-link:hover, a.other-page-link:hover span{
+a.other-page-link:hover, a.other-page-link:hover span, .other-page-link a:hover{
     color: var(--edwards-tavi) !important;
     text-decoration: underline;
     background: none !important;
 }
 
-a.parent-page-link:hover, a.parent-page-link:hover span{
+a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hover{
     color: #477896 !important;
     text-decoration: underline;
     background: none !important;
