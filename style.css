@@ -475,5 +475,5 @@ a.other-page-link:hover, a.other-page-link:hover span{
 a.parent-page-link:hover, a.parent-page-link:hover span{
     color: #477896 !important;
     text-decoration: underline;
-    background: none;
+    background: none !important;
 }
