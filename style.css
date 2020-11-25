@@ -434,6 +434,29 @@ div#teconsent img {
 }
 
 /**
+    Woocommerce
+ */
+
+.woocommerce-message {
+    background-color: var(--dark-grey);
+    color: #ffffff;
+    border-left: none !important;
+}
+
+a.button.wc-forward:before {
+    content: 'View basket \f054';
+    padding: 15px;
+    background: #323B3E;
+    border-radius: 5px;
+    font-family: "Font Awesome 5 Free", "Merriweather Sans";
+    color: white;
+}
+
+div.woocommerce-message a.button{
+    color: transparent;
+}
+
+/**
     Rollover section
  */
 
