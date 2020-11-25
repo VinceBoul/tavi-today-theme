@@ -463,14 +463,17 @@ div.woocommerce-message a.button{
 
 a.action-link:hover{
     color: var(--edwards-tavi) !important;
+    background: none;
 }
 
 a.other-page-link:hover, a.other-page-link:hover span{
     color: var(--edwards-tavi) !important;
     text-decoration: underline;
+    background: none;
 }
 
 a.parent-page-link:hover, a.parent-page-link:hover span{
     color: #477896 !important;
     text-decoration: underline;
+    background: none;
 }
