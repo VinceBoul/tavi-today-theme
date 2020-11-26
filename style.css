@@ -469,7 +469,7 @@ div.woocommerce-message a.button{
 
 #order_review, #customer_details{
     float: none !important;
-    width: 100%;
+    width: 100% !important;
 }
 
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
