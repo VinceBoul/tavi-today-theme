@@ -438,8 +438,8 @@ div#teconsent img {
  */
 
 .woocommerce-message {
-    background-color: var(--dark-grey) !important;
-    color: #ffffff;
+    background-color: #B7B09C80 !important;
+    color: var(--dark-grey);
     position: fixed;
     border-left: none !important;
     bottom: 0;
@@ -454,7 +454,7 @@ div#teconsent img {
     -ms-animation: fadeOut ease 8s;
 }
 
-@keyframes woocommerce-message {
+@keyframes fadeOut {
     0% {
         opacity:1;
     }
@@ -463,7 +463,7 @@ div#teconsent img {
     }
 }
 
-@-moz-keyframes woocommerce-message {
+@-moz-keyframes fadeOut {
     0% {
         opacity:1;
     }
@@ -472,7 +472,7 @@ div#teconsent img {
     }
 }
 
-@-webkit-keyframes woocommerce-message {
+@-webkit-keyframes fadeOut {
     0% {
         opacity:1;
     }
@@ -481,7 +481,7 @@ div#teconsent img {
     }
 }
 
-@-o-keyframes woocommerce-message {
+@-o-keyframes fadeOut {
     0% {
         opacity:1;
     }
@@ -490,7 +490,7 @@ div#teconsent img {
     }
 }
 
-@-ms-keyframes woocommerce-message {
+@-ms-keyframes fadeOut {
     0% {
         opacity: 1;
     }
