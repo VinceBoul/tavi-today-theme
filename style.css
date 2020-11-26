@@ -514,11 +514,11 @@ div.woocommerce-message a.button{
     color: transparent;
 }
 
-.woocommerce-terms-and-conditions-wrapper, #place_order{
+#place_order{
     display: none;
 }
 
-#woocommerce-terms-and-conditions-wrapper{
+.woocommerce-terms-and-conditions-wrapper{
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
