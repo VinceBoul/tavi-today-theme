@@ -463,6 +463,10 @@ div.woocommerce-message a.button{
     margin-right: -85px;
 }
 
+#customer_details col-1{
+    max-width: 100% !important;
+}
+
 /**
     Rollover section
  */
