@@ -25,3 +25,7 @@
     height: 85px !important; 
     width: 85px !important;
 }
+#quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav .quadmenu-row li.quadmenu-item-has-children{
+    padding-left: 15px;
+    padding-right: 15px;
+}
