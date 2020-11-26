@@ -467,6 +467,11 @@ div.woocommerce-message a.button{
     max-width: 100% !important;
 }
 
+#order_review, #customer_details{
+    float: none !important;
+    width: 100%;
+}
+
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
     background: var(--neutral-blue) !important;
 }
