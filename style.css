@@ -438,7 +438,7 @@ div#teconsent img {
  */
 
 .woocommerce-message {
-    background-color: #B7B09C80 !important;
+    background-color: #D8D7CD !important;
     color: var(--dark-grey) !important;
     position: fixed;
     border-left: none !important;
@@ -447,15 +447,15 @@ div#teconsent img {
     margin: 0;
     max-width: 1100px;
     width: 50%;
+    transition: visibility 0s 5s, opacity 5s linear;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s 5s, opacity 5s linear;
 }
 
 a.button.wc-forward:before {
     content: 'View basket \f054';
     padding: 15px;
-    background: #DBD7CD;
+    background: #CECABE;
     border-radius: 5px;
     font-family: "Font Awesome 5 Free", "Merriweather Sans";
     color: var(--dark-grey);
