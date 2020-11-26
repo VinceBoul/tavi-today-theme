@@ -533,3 +533,11 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     text-decoration: underline;
     background: none !important;
 }
+
+.elementor-icon-box-wrapper:hover .elementor-icon-box-icon a svg path{
+    fill: var(--edwards-tavi);
+}
+
+.elementor-icon-box-wrapper:hover .elementor-icon-box-content a{
+    color: var(--edwards-tavi);
+}
