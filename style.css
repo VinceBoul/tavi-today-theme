@@ -467,6 +467,13 @@ div.woocommerce-message a.button{
     max-width: 100% !important;
 }
 
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+    background: var(--neutral-blue) !important;
+}
+.woocommerce #payment #place_order:hover, .woocommerce-page #payment #place_order:hover{
+    background: var(--edwards-tavi) !important;
+}
+
 /**
     Rollover section
  */
