@@ -529,8 +529,11 @@ div.woocommerce-message a.button{
     margin-bottom: 56px;
 }
 
-.thank-you-message h{
-    margin-top: 67px;
+.thank-you-message h1{
+    margin-bottom: 38px;
+}
+
+.thank-you-message button{
     margin-bottom: 56px;
 }
 
