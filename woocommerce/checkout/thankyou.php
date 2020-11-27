@@ -66,7 +66,7 @@ defined('ABSPATH') || exit;
                     "items"=> $products
                 ));?>;
             </script>
-        <?php endif; print_r($order);?>
+        <?php endif; print_r($_POST);?>
 
     <?php else : ?>
 
