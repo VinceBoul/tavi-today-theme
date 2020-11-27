@@ -41,6 +41,44 @@ defined('ABSPATH') || exit;
 
         <?php else : ?>
 
+        <div class="elementor-inner">
+            <div class="elementor-section-wrap">
+                <section class="elementor-section elementor-top-section elementor-element elementor-element-d9e1057 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d9e1057" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9edd127" data-id="9edd127" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-5ece9e9 elementor-widget elementor-widget-heading" data-id="5ece9e9" data-element_type="widget" data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h1 class="elementor-heading-title elementor-size-default">Thank you!</h1>		</div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-d63ca9b elementor-widget elementor-widget-text-editor" data-id="d63ca9b" data-element_type="widget" data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix"><p>Your order has been placed and materials will be sent to you in the within 14 days.</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-85ddb3f elementor-widget elementor-widget-Rounded Button" data-id="85ddb3f" data-element_type="widget" data-widget_type="Rounded Button.default">
+                                            <div class="elementor-widget-container">
+
+                                                <div class="rounded-button-container " _colorbg="neutral blue" style="width: max-content;height:max-content;">
+                                                    <a href="/tavi-resources/">
+                                                        <div class="rounded-button">
+                                                            <div class="rounded-button-title">Return to Resources</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
         <?php
         $products = [];
         foreach($order->get_items() as $values) {
