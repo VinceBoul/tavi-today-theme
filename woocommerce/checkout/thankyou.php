@@ -48,7 +48,7 @@ defined('ABSPATH') || exit;
                 $products[] =
                     ["quantity" => $datas['quantity'],
                         "title" => $datas['name'],
-                        "ppeNum" => get_post_meta( $datas['product_id'], 'ppe_number', true )];
+                        "ppeNum" => get_post_meta( intval($datas['product_id']), 'ppe_number', true )];
             }
 
             echo json_encode(
