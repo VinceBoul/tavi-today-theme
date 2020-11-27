@@ -524,7 +524,7 @@ div.woocommerce-message a.button{
     line-height: 20px;
 }
 
-.checkout{
+.checkout, section div .checkout{
     display: none;
 }
 
