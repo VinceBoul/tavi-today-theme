@@ -42,15 +42,15 @@ defined('ABSPATH') || exit;
         <?php else : ?>
 
         <?php
-//            $products = [];
-//            foreach($order->get_items() as $values) {
-//                $_product = wc_get_product($values['data']->get_id());
-//                $products[$values['data']->get_id()] =
-//                    ["quantity" => $values['quantity'],
-//                        "title" => $_product->get_title(),
-//                        "ppeNum" => get_post_meta( $values['data']->get_id(), 'ppe_number', true )];
-//            }
-    print_r($order->get_items());
+            $products = [];
+            foreach($order->get_items() as $values) {
+                $datas = $values->get_data();
+                $products[] =
+                    ["quantity" => $datas['quantity'],
+                        "title" => $datas['name'],
+                        "ppeNum" => get_post_meta( $datas['product_id'], 'ppe_number', true )];
+            }
+
             echo json_encode(
                 array(
                     "email" => $order->get_billing_email(),
@@ -61,7 +61,7 @@ defined('ABSPATH') || exit;
                     "city" => $order->get_billing_city(),
                     "postcode" => $order->get_billing_postcode(),
                     "country" => $order->get_billing_country(),
-                    "items"=> $order->get_items()
+                    "items"=> $products
                 ));?>
 
         <?php endif; ?>
