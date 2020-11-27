@@ -60,12 +60,13 @@ defined('ABSPATH') || exit;
                     "address1" => $order->get_billing_address_1(),
                     "address2" => $order->get_billing_address_2(),
                     "city" => $order->get_billing_city(),
-                    "postcode" => $order->get_billing_postcode(),
+                    "postCode" => $order->get_billing_postcode(),
                     "country" => $order->get_billing_country(),
+                    "newslettSignup" => true,
                     "items"=> $products
                 ));?>;
             </script>
-        <?php endif; ?>
+        <?php endif; print_r($order);?>
 
     <?php else : ?>
 
