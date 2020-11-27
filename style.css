@@ -572,3 +572,7 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
 .elementor-icon-box-wrapper:hover .elementor-icon-box-content a{
     color: var(--edwards-tavi);
 }
+
+.elementor-accordion .elementor-tab-title{
+    margin-top: 16px;
+}
