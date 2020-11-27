@@ -18,7 +18,7 @@
 defined('ABSPATH') || exit;
 ?>
 
-<div class="woocommerce-order">
+<div class="woocommerce-order thank-you-message">
 
     <?php
     if ($order) :
