@@ -534,6 +534,7 @@ div.woocommerce-message a.button{
 }
 
 .thank-you-message .rounded-button-container{
+    margin-top: 56px;
     margin-bottom: 56px;
 }
 
