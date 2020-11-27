@@ -41,7 +41,17 @@ defined('ABSPATH') || exit;
 
         <?php else : ?>
 
-        <?php echo json_encode(
+        <?php
+//            $products = [];
+//            foreach($order->get_items() as $values) {
+//                $_product = wc_get_product($values['data']->get_id());
+//                $products[$values['data']->get_id()] =
+//                    ["quantity" => $values['quantity'],
+//                        "title" => $_product->get_title(),
+//                        "ppeNum" => get_post_meta( $values['data']->get_id(), 'ppe_number', true )];
+//            }
+    print_r($order->get_items());
+            echo json_encode(
                 array(
                     "email" => $order->get_billing_email(),
                     "firstName" => $order->get_billing_first_name(),
