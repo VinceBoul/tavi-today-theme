@@ -463,8 +463,65 @@ div.woocommerce-message a.button{
     margin-right: -85px;
 }
 
-#customer_details col-1{
+#customer_details .col-1{
     max-width: 100% !important;
+    padding: 0;
+}
+
+#order_review, #customer_details{
+    float: none !important;
+    width: 100% !important;
+}
+
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+    background: var(--neutral-blue) !important;
+}
+.woocommerce #payment #place_order:hover, .woocommerce-page #payment #place_order:hover{
+    background: var(--edwards-tavi) !important;
+}
+
+#order_review_heading, .woocommerce-additional-fields{
+    display: none;
+}
+
+.woocommerce-billing-fields h3{
+    display: none;
+}
+
+.woocommerce form .form-row {
+    padding: 3px;
+    margin: 0 0 6px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#place_order{
+    border-radius: 5px;
+    max-width: 160px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#billing_address_2_field label{
+    color: transparent;
+}
+
+#place_order{
+    display: none;
+}
+
+.woocommerce-terms-and-conditions-wrapper{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
 }
 
 /**
