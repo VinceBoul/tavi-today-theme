@@ -559,6 +559,12 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     background: none !important;
 }
 
+#page :not(.parent-page-link):not(.other-page-link):not(.action-link) .elementor-text-editor a:hover{
+    color: var(--edwards-tavi) !important;
+    text-decoration: underline;
+    background: none !important;
+}
+
 .elementor-icon-box-wrapper:hover .elementor-icon-box-icon a svg path{
     fill: var(--edwards-tavi);
 }
