@@ -43,7 +43,7 @@ defined('ABSPATH') || exit;
         <?php else : ?>
 
 
-        <h1 class="elementor-heading-title elementor-size-default">Thank you!</h1></div>
+        <h1 class="elementor-heading-title elementor-size-default">Thank you!</h1>
 
         <div class="elementor-text-editor elementor-clearfix"><p>Your order has been placed and materials will be sent to you in the within 14 days.</p></div>
 
