@@ -41,12 +41,20 @@ defined('ABSPATH') || exit;
 
         <?php else : ?>
 
-        <?php echo json_encode($order->get_billing_email());?>
+        <?php echo json_encode(
+                array(
+                    "email" => $order->get_billing_email(),
+                    "firstName" => $order->get_billing_first_name(),
+                    "lastName" => $order->get_billing_last_name(),
+                    "address1" => $order->get_billing_address_1(),
+                    "address2" => $order->get_billing_address_2(),
+                    "city" => $order->get_billing_city(),
+                    "postcode" => $order->get_billing_postcode(),
+                    "country" => $order->get_billing_country(),
+                    "items"=> $order->get_items()
+                ));?>
 
         <?php endif; ?>
-
-        <?php do_action('woocommerce_thankyou_' . $order->get_payment_method(), $order->get_id()); ?>
-        <?php do_action('woocommerce_thankyou', $order->get_id()); ?>
 
     <?php else : ?>
 
