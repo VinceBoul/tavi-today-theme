@@ -524,6 +524,11 @@ div.woocommerce-message a.button{
     line-height: 20px;
 }
 
+.thank-you-message{
+    margin-top: 67px;
+    margin-bottom: 56px;
+}
+
 /**
     Rollover section
  */
