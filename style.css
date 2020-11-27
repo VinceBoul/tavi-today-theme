@@ -524,6 +524,10 @@ div.woocommerce-message a.button{
     line-height: 20px;
 }
 
+.checkout{
+    display: none;
+}
+
 /**
     Rollover section
  */

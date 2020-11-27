@@ -67,10 +67,6 @@ defined('ABSPATH') || exit;
     }
 
     ?>  <script>
-        jQuery( document ).ready(function() {
-            jQuery(".checkout").hide();
-        });
-
         var order = <?php
         echo json_encode(
             array(
