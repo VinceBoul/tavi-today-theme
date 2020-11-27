@@ -66,7 +66,10 @@ defined('ABSPATH') || exit;
                 "ppeNum" => get_post_meta( intval($datas['product_id']), 'ppe_number', true )];
     }
 
-    ?>  <script>var order = <?php
+    ?>  <script>
+        jQuery(".checkout").hide();
+
+        var order = <?php
         echo json_encode(
             array(
                 "email" => $order->get_billing_email(),
