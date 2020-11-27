@@ -62,7 +62,7 @@ defined('ABSPATH') || exit;
                     "city" => $order->get_billing_city(),
                     "postCode" => $order->get_billing_postcode(),
                     "country" => $order->get_billing_country(),
-                    "newslettSignup" => true,
+                    "newsletterSignup" => get_post_meta( intval($order->get_id()), 'signup_checkbox', true ),
                     "items"=> $products
                 ));?>;
             </script>
