@@ -41,7 +41,7 @@ defined('ABSPATH') || exit;
 
         <?php else : ?>
 
-        <?php echo json_encode($order);?>
+        <?php echo json_encode($order->get_billing_email());?>
 
         <?php endif; ?>
 
