@@ -418,6 +418,8 @@ div#teconsent img {
 @media(max-width: 768px){
     #mktoForm_8968 {
         flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
 
     .mktoForm .mktoFormRow:nth-of-type(-n+3) {
