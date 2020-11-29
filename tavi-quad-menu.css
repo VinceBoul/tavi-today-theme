@@ -1,9 +1,9 @@
 /*
     Secondary menu
 */
-@media(min-width: 769px){
+@media(min-width: 768px){
 #quadmenu_0{
-    width: 1140px !important;
+    max-width: 1140px !important;
     margin: auto;
     text-align: right;
 }
