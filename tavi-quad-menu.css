@@ -259,6 +259,10 @@ nav.secondary-navigation{
     content: 'Resources order';
 }
 
+#quadmenu.quadmenu-custom_theme_1 .widget .widget_shopping_cart_content .elementor-menu-cart__footer-buttons a{
+    height: 45px !important;
+}
+
 .elementor-menu-cart__footer-buttons a::before{
     content: 'Go to Basket >';
     border-radius: 5px;
