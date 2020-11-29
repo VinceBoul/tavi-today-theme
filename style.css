@@ -45,12 +45,12 @@ ol {
     list-style: none;
     counter-reset: custom-counter;
 }
-ol li {
+ol>li {
     counter-increment: custom-counter;
     position:relative;
     margin:10px;
 }
-ol li::before {
+ol>li::before {
     content: counter(custom-counter) " ";
     color: black;
     font-weight: normal;
