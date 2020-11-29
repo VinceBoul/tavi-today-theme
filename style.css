@@ -41,16 +41,16 @@ body{
     overflow-x: hidden;
 }
 
-ol {
+.elementor-text-editor ol {
     list-style: none;
     counter-reset: custom-counter;
 }
-ol>li {
+.elementor-text-editor ol>li {
     counter-increment: custom-counter;
     position:relative;
     margin:10px;
 }
-ol>li::before {
+.elementor-text-editor ol>li::before {
     content: counter(custom-counter) " ";
     color: black;
     font-weight: normal;
