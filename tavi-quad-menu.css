@@ -268,8 +268,22 @@ nav.secondary-navigation{
     left: 0;
     right: 0;
     position: absolute;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
+.elementor-menu-cart__container .elementor-menu-cart__main{
+    background-color: var(--dark-grey) !important;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .elementor-menu-cart__footer-buttons a::before {
+        width: 90%;
+        left: 15px;
+        right: 0px;
+    }
+}
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
