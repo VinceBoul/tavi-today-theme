@@ -474,9 +474,10 @@ div#teconsent img {
     position: fixed;
     border-left: none !important;
     top: 0;
+    right: 0;
     z-index: 99999999;
     margin: 0;
-    max-width: 1100px;
+    max-width: 900px;
     width: 50%;
 }
 
