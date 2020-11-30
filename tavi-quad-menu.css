@@ -301,6 +301,15 @@ nav.secondary-navigation{
     content: url(/wp-content/uploads/2020/11/basket.svg) !important;
 }
 
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item.sign-up-global-item>a>.quadmenu-item-content>.quadmenu-icon.dashicons-email:before {
+    content: "\f0e0";
+    font-family: 'Font Awesome 5 Free';
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item.sign-up-global-item>a>.quadmenu-item-content>.quadmenu-text{
+    text-transform: initial !important;
+}
+
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
