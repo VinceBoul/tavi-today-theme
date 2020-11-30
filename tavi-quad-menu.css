@@ -288,6 +288,19 @@ nav.secondary-navigation{
         right: 0px;
     }
 }
+
+.quadmenu-navbar-nav > li.quadmenu-item-type-cart.quadmenu-cart-empty > .quadmenu-dropdown-menu .widget_shopping_cart{
+    text-transform: initial !important;
+}
+
+.site-title-custom-design .quadmenu-text{
+    color: #BCCCD5;
+}
+
+.dashicons-cart:before {
+    content: url(/wp-content/uploads/2020/11/basket.svg) !important;
+}
+
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
