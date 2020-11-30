@@ -576,18 +576,41 @@ div.woocommerce-message a.button{
 a.action-link:hover, .action-link a:hover{
     color: var(--edwards-tavi) !important;
     background: none !important;
+    opacity: 1;
+}
+
+a.action-link:hover, .action-link a{
+    color: var(--dark-grey) !important;
+    opacity: 0.8;
+    background: none !important;
 }
 
 a.other-page-link:hover, a.other-page-link:hover span, .other-page-link a:hover{
     color: var(--edwards-tavi) !important;
     text-decoration: underline;
     background: none !important;
+    opacity: 1;
 }
 
 a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hover{
     color: #477896 !important;
     text-decoration: underline;
     background: none !important;
+    opacity: 1;
+}
+
+a.other-page-link, a.other-page-link span, .other-page-link a{
+    color: var(--dark-grey) !important;
+    text-decoration: underline;
+    background: none !important;
+    opacity: 0.8;
+}
+
+a.parent-page-link, a.parent-page-link span, .parent-page-link a{
+    color: #477896 !important;
+    text-decoration: underline;
+    background: none !important;
+    opacity: 0.8;
 }
 
 .elementor-icon-box-wrapper:hover .elementor-icon-box-icon a svg path{
