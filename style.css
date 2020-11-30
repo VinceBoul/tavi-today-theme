@@ -473,7 +473,7 @@ div#teconsent img {
     color: var(--dark-grey) !important;
     position: fixed;
     border-left: none !important;
-    top: 0;
+    top: 60;
     right: 0;
     z-index: 99999999;
     margin: 0;
