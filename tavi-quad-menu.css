@@ -314,6 +314,10 @@ nav.secondary-navigation{
     text-transform: initial !important;
 }
 
+#quadmenu .quadmenu-navbar-nav>li.quadmenu-item-type-search>form>.quadmenu-item-content>.quadmenu-icon{
+    opacity: 1 !important;
+}
+
 /*}*/
 /*span.elementor-button-text{
     border: 1px solid white;
