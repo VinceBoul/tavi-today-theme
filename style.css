@@ -574,7 +574,7 @@ div.woocommerce-message a.button{
     Rollover section
  */
 
-a.action-link:hover, .action-link a:hover{
+a.action-link:hover, .action-link a:hover, .action-link button:hover{
     color: var(--edwards-tavi) !important;
     background: none !important;
     opacity: 1;
