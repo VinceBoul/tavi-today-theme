@@ -312,7 +312,7 @@ form#products-grid-search-form {
 
 
 .dashicons-email:before {
-    content: url(/wp-content/themes/tavi-today-theme/assets/icons/newletter.svg) !important;
+    content: url(/wp-content/themes/tavi-today-theme/assets/icons/newsletter.svg) !important;
 }
 
 .dashicons-search:before {
@@ -333,8 +333,8 @@ form#products-grid-search-form {
 }
 
 .quadmenu-item-object-column:not(:nth-of-type(1)){
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 /*}*/
