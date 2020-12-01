@@ -218,12 +218,6 @@ nav.secondary-navigation{
     text-transform: capitalize;
 }
 
-
-#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form input::placeholder{
-    color: white;
-    opacity: 1;
-}
-
 #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form:focus-within input{
     width: 210px;
     border: 1px solid #FFFFFF;
