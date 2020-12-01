@@ -315,7 +315,7 @@ form#products-grid-search-form {
     content: url(/wp-content/themes/tavi-today-theme/assets/icons/newletter.svg) !important;
 }
 
-.dashicons-email:before {
+.dashicons-search:before {
     content: url(/wp-content/themes/tavi-today-theme/assets/icons/Search.svg) !important;
 }
 
