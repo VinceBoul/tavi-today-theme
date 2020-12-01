@@ -210,11 +210,18 @@ nav.secondary-navigation{
     left: 15px;
     right: inherit !important;
 }
+
 #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form input{
     margin-left: 10px !important;
     width: 66px;
     padding-right: 0;
     text-transform: capitalize;
+}
+
+
+#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form input::placeholder{
+    color: white;
+    opacity: 1;
 }
 
 #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form:focus-within input{
