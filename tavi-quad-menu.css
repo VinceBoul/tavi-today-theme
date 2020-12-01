@@ -211,8 +211,9 @@ nav.secondary-navigation{
     right: inherit !important;
 }
 #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form input{
-    margin-left: 20px !important;
-    width: 100px;
+    margin-left: 10px !important;
+    width: 66px;
+    padding-right: 0;
     text-transform: capitalize;
 }
 
@@ -343,6 +344,6 @@ ul.quadmenu-row{
 }
 
 #quadmenu_0 .quadmenu-item-level-0, #quadmenu_0 .quadmenu-item-level-0 .quadmenu-item-content{
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0 !important;
+    padding-left: 12px !important;
 }
