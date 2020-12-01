@@ -302,8 +302,21 @@ nav.secondary-navigation{
     font-size: 16px;
 }
 
+form#products-grid-search-form {
+    margin-bottom: 36px;
+}
+
 .dashicons-cart:before {
-    content: url(/wp-content/uploads/2020/11/basket.svg) !important;
+    content: url(/wp-content/themes/tavi-today-theme/assets/icons/Vector.svg) !important;
+}
+
+
+.dashicons-email:before {
+    content: url(/wp-content/themes/tavi-today-theme/assets/icons/newletter.svg) !important;
+}
+
+.dashicons-email:before {
+    content: url(/wp-content/themes/tavi-today-theme/assets/icons/Search.svg) !important;
 }
 
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item.sign-up-global-item>a>.quadmenu-item-content>.quadmenu-icon.dashicons-email:before {
@@ -317,6 +330,11 @@ nav.secondary-navigation{
 
 #quadmenu .quadmenu-navbar-nav>li.quadmenu-item-type-search>form>.quadmenu-item-content>.quadmenu-icon{
     opacity: 1 !important;
+}
+
+.quadmenu-item-object-column:not(:nth-of-type(1)){
+    padding-right: 0;
+    padding-left: 0;
 }
 
 /*}*/
