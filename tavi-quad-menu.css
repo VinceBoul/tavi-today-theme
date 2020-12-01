@@ -191,7 +191,7 @@ nav.secondary-navigation{
 }
 
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item>a>.quadmenu-item-content>.quadmenu-text{
-    text-transform: capitalize !important;
+    text-transform: initial !important;
 }
 
 .widget_shopping_cart a{
