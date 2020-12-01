@@ -319,6 +319,9 @@ form#products-grid-search-form {
     content: url(/wp-content/themes/tavi-today-theme/assets/icons/Vector.svg) !important;
 }
 
+span.quadmenu-icon.dashicons.dashicons-email.hover.t_1000{
+    margin-right: 12px;
+}
 
 .dashicons-email:before {
     content: url(/wp-content/themes/tavi-today-theme/assets/icons/newsletter.svg) !important;
@@ -347,7 +350,7 @@ form#products-grid-search-form {
 }
 
 ul.quadmenu-row{
-    margin-top:20px;
+    margin-top:20px !important;
 }
 
 #quadmenu_0 .quadmenu-item-level-0, #quadmenu_0 .quadmenu-item-level-0 .quadmenu-item-content{
