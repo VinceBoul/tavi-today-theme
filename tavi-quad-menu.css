@@ -341,3 +341,8 @@ form#products-grid-search-form {
 ul.quadmenu-row{
     margin-top:20px;
 }
+
+#quadmenu_0 .quadmenu-item-level-0, #quadmenu_0 .quadmenu-item-level-0 .quadmenu-item-content{
+    padding-right: 0;
+    padding-left: 0;
+}
