@@ -314,7 +314,7 @@ form#products-grid-search-form {
 }
 
 span.quadmenu-icon.dashicons.dashicons-email.hover.t_1000{
-    margin-right: 12px;
+    margin-right: 12px !important;
 }
 
 .dashicons-email:before {
