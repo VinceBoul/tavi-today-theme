@@ -351,3 +351,7 @@ ul.quadmenu-row{
     padding-right: 0 !important;
     padding-left: 12px !important;
 }
+
+#quadmenu #quadmenu_1 .quadmenu-navbar-nav li.quadmenu-item>a>.quadmenu-item-content>.quadmenu-caret{
+    z-index: initial
+}
