@@ -80,6 +80,7 @@ defined('ABSPATH') || exit;
                     "postCode" => $order->get_billing_postcode(),
                     "country" => $order->get_billing_country(),
                     "newsletterSignup" => get_post_meta( intval($order->get_id()), 'signup_checkbox', true ),
+                    "occupation" => get_post_meta( intval($order->get_id()), 'occupation', true ),
                     "items"=> $products
                 ));?>;
     </script>
