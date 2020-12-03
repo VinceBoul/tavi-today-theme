@@ -8,11 +8,13 @@
  Version:      1.0.0
  Tags:         light, multi-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  tavi-today-theme
+ Bitbucket Theme URI: https://jeremyvoisin:aBhHC59hpfnhcQyv3nqR@bitbucket.org/edwards-tavi/tavi-today-theme.git
 */
 @import url('./tavi-quad-menu.css');
 @import url('./tavi-elementor-widget-style.css');
 @import url('./tavi-animated-style.css');
 @import url('./tavi-media-queries.css');
+
 :root {
     /*colors*/
     --edwards-tavi: #C8102E;
@@ -20,32 +22,64 @@
     --light-blue: #D7E0E6;
     --neutral-blue: #7A99AC;
     --mystic-white: #E4EBEE;
-    
-    /*borders*/
-    --default-border-radius:8px;
-    --default-border:1px solid #505759;
-    /*box-shadow*/
-    --box-shadow-primary-grey: 3px 3px #898D8D, 
-    3px -3px #898D8D,
-    -3px 3px #898D8D,
-    -3px -3px #898D8D;
-    /*font*/
-   
-    --default-line-height:24px;
+    --primary-gray: #898D8D;
 
-    
-    
+    /*borders*/
+    --default-border-radius: 8px;
+    --default-border: 1px solid var(--dark-grey);
+    /*box-shadow*/
+    --box-shadow-primary-grey: 3px 3px var(--primary-gray),
+    3px -3px var(--primary-gray),
+    -3px 3px var(--primary-gray),
+    -3px -3px var(--primary-gray);
+    /*font*/
+    --default-line-height: 24px;
+    --default-font-size: 16px;
     color: var(--dark-grey);
-    
 }
 .container{
     padding-left: 0px;
     padding-right: 0px;
 }
-.edward-tavi-text{
+
+body{
+    overflow-x: hidden;
+}
+
+.elementor-text-editor ol {
+    list-style: none;
+    counter-reset: custom-counter;
+}
+.elementor-text-editor ol>li {
+    counter-increment: custom-counter;
+    position:relative;
+    margin:10px;
+}
+.elementor-text-editor ol>li::before {
+    content: counter(custom-counter) " ";
+    color: black;
+    font-weight: normal;
+    border-radius: 50%;
+    background: #E4EBEE;
+    line-height: 24px;
+    text-align:  center;
+    left: -34px;
+    top: -3px;
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.edward-tavi-text {
     font-size: var(--default-font-size);
     line-height: var(--default-line-height);
 }
+
 .edwards-tavi {
     color: var(--edwards-tavi);
 }
@@ -71,5 +105,509 @@
     filter: invert(28%) sepia(49%) saturate(7119%) hue-rotate(337deg) brightness(76%) contrast(111%);
 }
 
+@media (min-width: 1140px) {
+    .generic-spacing-left {
+        padding-left: calc(50vw - 570px);
+        padding-right: 15px;
+    }
+
+    .generic-spacing-right {
+        padding-right: calc(50vw - 570px);
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .generic-spacing-left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .generic-spacing-right {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+/** CSS curly brace */
+
+#curly-brace {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 20px;
+}
+
+.brace {
+    border-bottom: 5px solid;
+    margin: 0 10%;
+    width: 30%;
+    height: 20px;
+    float: left;
+}
+
+.brace:before,
+.brace:after {
+    content: "";
+    width: 10%;
+    height: 50px;
+    position: absolute;
+    display: block;
+}
+
+#left::before {
+    border-bottom: 5px solid;
+    border-bottom-left-radius: 20px;
+    margin-left: -10%;
+    margin-top: -30px;
+}
+
+#left::after {
+    border-top: 5px solid;
+    border-top-right-radius: 20px;
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+#right::before {
+    border-top: 5px solid;
+    border-top-left-radius: 20px;
+    margin-left: -10%;
+    margin-top: 15px;
+}
+
+#right::after {
+    border-bottom: 5px solid;
+    border-bottom-right-radius: 20px;
+    margin-left: 30%;
+    margin-top: -30px;
+}
+
+/** CSS Calendar */
+
+.calendar {
+    margin: 0 12.5%;
+    top: 0em;
+    left: 0;
+    padding-top: 20px;
+    width: 120px;
+    background: transparent;
+    border-top: solid 10px silver;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid silver;
+}
+
+.calendar em {
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+    color: #000;
+    background: transparent;
+}
+
+.calendar em::before {
+    border-top: 5px solid silver;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    content: '';
+    top: 20px;
+}
+
+.calendar:before,
+.calendar:after {
+    content: '';
+    float: left;
+    position: absolute;
+    top: -20px;
+    width: 8px;
+    height: 30px;
+    background: silver;
+    z-index: 1;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.calendar:before {
+    left: 20px;
+}
+
+.calendar:after {
+    right: 20px;
+}
+
+/** Custom accordion style */
+
+.elementor-accordion-item {
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.elementor-accordion-item:last-of-type {
+    border-bottom: none;
+}
+
+.elementor-active {
+    border: none;
+}
+
+/** Custom tab style */
+
+.elementor-tab-desktop-title.elementor-active {
+    border-bottom: 2px solid silver !important;
+}
+
+.elementor-tabs-wrapper {
+    border-bottom: 1px solid silver;
+}
+
+/** Custom list style */
+
+.elementor-text-editor ul {
+    margin-left: 1em !important;
+    list-style: none;
+    /* Remove default bullets */
+}
+
+.elementor-text-editor ul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgba(80, 87, 89, 0.5);
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+h1,
+h2 {
+    margin-bottom: 32px !important;
+}
+
+h3,
+h4 {
+    margin-bottom: 16px !important;
+}
+
+.drop-shadow:hover {
+    filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.25));
+}
+
+/**
+    Slider section
+ */
+
+@media(min-width: 768px) {
+    .custom-slider .swiper-slide-contents {
+        width: 100%;
+        margin-left: calc(50vw - 520px) !important;
+    }
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: -30px 6px !important;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    margin: -32px 6px !important;
+    height: 15px !important;
+    width: 15px !important;
+}
+
+/** Marketo section */
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    background: #7A99AC !important;
+    border: none !important;
+    border-radius: 5px;
+    padding: 13px 30px !important;
+    margin-top: 49px;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover{
+    background: var(--edwards-tavi) !important;
+}
+
+#mktoForm_8968 {
+    display: flex;
+}
+
+.mktoButtonWrap.mktoSimple {
+    margin-left: 20px !important;
+}
+
+.mktoForm.mktoHasWidth.mktoLayoutLeft {
+    width: 100% !important;
+}
+
+.mktoFormRow {
+    width: 0;
+}
+
+.mktoForm .mktoFormRow:nth-of-type(-n+3) {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.mktoForm .mktoFieldWrap {
+    float: none !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.mktoForm input[type=text],
+.mktoForm input[type=url],
+.mktoForm input[type=email],
+.mktoForm input[type=tel],
+.mktoForm input[type=number],
+.mktoForm input[type=date],
+.mktoForm textarea.mktoField,
+.mktoForm select.mktoField {
+    width: 100% !important;
+    padding: 15px 10px !important;
+    border-radius: 5px !important;
+    background-color: transparent;
+}
+
+.mktoForm select {
+    padding: 17px 10px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: transparent;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 13px;
+}
+
+.mktoForm .mktoRequiredField .mktoAsterix{
+    display: none !important;
+}
+
+.mktoForm .mktoLabel[for='Email']{
+    color: transparent;
+    width: 1000px !important;
+}
+
+.mktoForm .mktoRequiredField label.mktoLabel[for='Email']:before{
+    color: black;
+    content: "Your email";
+    font-weight: bold;
+
+}
+
+.mktoForm .mktoLabel{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Merriweather Sans", "Arial";
+}
+
+.mktoForm .mktoFormCol{
+    margin-right: 10px;
+}
+
+.mktoOffset{
+    width: 0 !important;
+}
+#confirmnewsletterform, .mktoGutter{
+    height: 0;
+}
+
+div#teconsent a::before {
+    content: "Cookie Policy";
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+div#teconsent img {
+    display: none;
+}
+
+@media(max-width: 768px){
+    #mktoForm_8968 {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mktoForm .mktoFormRow:nth-of-type(-n+3) {
+        width: 100%;
+    }
+
+    .mktoButtonWrap.mktoSimple {
+        margin-left: 0px !important;
+    }
+
+    .mktoForm .mktoButtonWrap.mktoSimple .mktoButton{
+        width: 100%;
+    }
+}
+
+/**
+    Woocommerce
+ */
+
+.woocommerce-message {
+    background-color: #D8D7CD !important;
+    color: var(--dark-grey) !important;
+    position: fixed;
+    border-left: none !important;
+    top: 152px;
+    right: 0;
+    z-index: 99999999;
+    margin: 0;
+    max-width: 900px;
+    width: 50%;
+}
+
+a.button.wc-forward:before {
+    content: 'View basket \f054';
+    padding: 15px;
+    background: #CECABE;
+    border-radius: 5px;
+    font-family: "Font Awesome 5 Free", "Merriweather Sans";
+    color: var(--dark-grey);
+}
+
+div.woocommerce-message a.button{
+    color: transparent !important;
+    margin-right: -85px;
+}
+
+#customer_details .col-1{
+    max-width: 100% !important;
+    padding: 0;
+}
+
+#order_review, #customer_details{
+    float: none !important;
+    width: 100% !important;
+}
+
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+    background: var(--neutral-blue) !important;
+}
+.woocommerce #payment #place_order:hover, .woocommerce-page #payment #place_order:hover{
+    background: var(--edwards-tavi) !important;
+}
+
+#order_review_heading, .woocommerce-additional-fields{
+    display: none;
+}
+
+.woocommerce-billing-fields h3{
+    display: none;
+}
+
+.woocommerce form .form-row {
+    padding: 3px;
+    margin: 0 0 6px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#place_order{
+    border-radius: 5px;
+    max-width: 160px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#billing_address_2_field label{
+    color: transparent;
+}
+
+#place_order{
+    display: none;
+}
+
+.woocommerce-terms-and-conditions-wrapper{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.thank-you-message{
+    margin-top: 67px;
+    margin-bottom: 56px;
+}
+
+.thank-you-message h1{
+    margin-bottom: 38px;
+}
+
+.thank-you-message .rounded-button-container{
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+/**
+    Rollover section
+ */
+
+a.action-link:hover, .action-link a:hover, .action-link button:hover{
+    color: var(--edwards-tavi) !important;
+    background: none !important;
+    opacity: 1;
+}
+
+a.other-page-link:hover, a.other-page-link:hover span, .other-page-link a:hover{
+    color: var(--edwards-tavi) !important;
+    text-decoration: underline;
+    background: none !important;
+    opacity: 1;
+}
+
+a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hover{
+    color: #477896 !important;
+    text-decoration: underline;
+    background: none !important;
+    opacity: 1;
+}
 
 
+.elementor-icon-box-wrapper:hover .elementor-icon-box-icon a svg path{
+    fill: var(--edwards-tavi);
+}
+
+.elementor-icon-box-wrapper:hover .elementor-icon-box-content a{
+    color: var(--edwards-tavi);
+}
+
+.elementor-accordion .elementor-tab-title{
+    margin-top: 16px !important;
+}

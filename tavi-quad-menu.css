@@ -1,3 +1,29 @@
+/*
+    Secondary menu
+*/
+@media(min-width: 768px){
+#quadmenu_0{
+    max-width: 1140px !important;
+    margin: auto;
+    text-align: right;
+}
+
+#quadmenu_0 ul.quadmenu-navbar-nav{
+    text-align: right !important;
+}
+/*
+    Primary Manu
+*/
+
+#quadmenu_1{
+    padding-left: 136px !important;
+}
+
+.quadmenu-sticky-wrapper #quadmenu_1{
+    padding-left: calc(50vw - 570px) !important;
+}
+}
+
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item],
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item]{
     background-color: #BCCCD5;
@@ -17,15 +43,314 @@
     color: var(--dark-grey);
 }
 
-#quadmenu.quadmenu-is-horizontal.js .quadmenu-container .quadmenu-navbar-header a.quadmenu-navbar-brand {
-    height: 85px !important; 
-    width: 85px !important;
+.quadmenu-navbar-header{
+    width: 0;
 }
+
+@media(min-width: 769px){
 #quadmenu a.quadmenu-navbar-brand img {
-    height: 85px !important; 
-    width: 85px !important;
+    height: 114px !important;
+    width: 87px !important;
+    max-width: 87px;
+    max-height: 114px;
+    object-fit: cover;
+    z-index: 1000000 !important;
+    position: absolute;
+    top: -31px;
+    right: -95px;
 }
-#quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav .quadmenu-row li.quadmenu-item-has-children{
-    padding-left: 15px;
-    padding-right: 15px;
+
+#quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-nav{
+    text-align: left !important;
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item>.quadmenu-dropdown-menu{
+    z-index: auto;
+}
+}
+
+#quadmenu .quadmenu-item-level-0{
+    border-bottom: 5px solid transparent;
+}
+
+#quadmenu .quadmenu-item-level-0.current-menu-ancestor, #quadmenu .quadmenu-item-level-0.current-menu-item{
+    border-bottom: 5px solid white;
+    background-color: #8AA6B6;
+}
+
+.current-menu-item + li.quadmenu-item-level-0.current-menu-ancestor {
+    border-bottom: 5px solid transparent !important;
+    background-color: transparent !important;
+}
+
+.quadmenu-sticky-top .quadmenu-navbar-brand.img{
+    visibility: hidden;
+}
+
+.elementor-lightbox-image{
+    background-color: white;
+    padding: 2%;
+}
+
+span.quadmenu-cart-total::after {
+    content: "Basket";
+    text-transform: capitalize;
+    font-family: Merriweather Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+span.woocommerce-Price-amount.amount {
+    display: none;
+}
+
+input.search-field{
+    background: transparent;
+    border: 1px solid silver;
+    border-radius: 5px;
+    width:100%;
+}
+
+.search-form label{
+    width: 100%
+}
+
+.search-submit{
+    display: none
+}
+
+.secondary-navigation {
+    background-color: var(--neutral-blue) !important;
+}
+
+#quadmenu.quadmenu-is-horizontal.quadmenu-align-right .quadmenu-navbar-header{
+    z-index: 999999;
+}
+
+#quadmenu:not(.quadmenu-sticky-top){
+    z-index: inherit !important;
+}
+
+a.elementor-button.elementor-button--checkout.elementor-size-md{
+    display:none;
+}
+
+.elementor-menu-cart__subtotal, .elementor-menu-cart__product-price.product-price, .elementor-menu-cart__product-remove.product-remove, .quadmenu-bottom-text, .elementor-menu-cart__product-price.product-price{
+    display: none !important;
+}
+
+.quadmenu-dropdown-menu .quadmenu-item-object-column:nth-of-type(2) .quadmenu-item:first-of-type .quadmenu-text{
+    font-weight: 700;
+}
+
+.menu-coming-soon:after{
+    content: 'Coming soon';
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 5px;
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px;
+    color: #898D8D;
+}
+
+/*@media(min-width: 769px){
+nav.secondary-navigation{
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    background-color: var(--neutral-blue);
+}
+
+.elementor-location-header{
+    position: fixed;
+    top: 40px;
+    z-index: 99999;
+}
+
+#wpadminbar ~ .elementor-location-header{
+    top: 72px;  
+}
+
+#wpadminbar ~ nav.secondary-navigation{
+    top: 32px;
+}
+
+#page{
+    margin-top: 100px;
+}
+*/
+#quadmenu.quadmenu-default_theme.quadmenu-is-horizontal .quadmenu-navbar-nav > li > .quadmenu-dropdown-menu {
+    padding-top: 40px;
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item>a>.quadmenu-item-content>.quadmenu-text{
+    text-transform: initial !important;
+}
+
+.widget_shopping_cart a{
+    color: white;
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item>.quadmenu-dropdown-menu{
+    z-index: 100000 !important;
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item input{
+    background-color: transparent !important;
+}
+
+#quadmenu .quadmenu-navbar-nav>li.quadmenu-item-type-search>form>.quadmenu-item-content>.quadmenu-icon{
+    left: 15px;
+    right: inherit !important;
+}
+
+#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form input{
+    margin-left: 10px !important;
+    width: 66px;
+    padding-right: 0;
+    text-transform: capitalize;
+}
+
+#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form:focus-within input{
+    width: 210px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form:focus-within .quadmenu-icon{
+    display: none;
+}
+
+#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form:focus > span{
+    display: none;
+}
+
+#quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav > li.quadmenu-item-type-cart > .quadmenu-dropdown-menu{
+    padding: 15px !important;
+    border-radius: 5px;
+}
+
+.elementor-menu-cart__footer-buttons a {
+    text-align: center !important;
+    height:20px !important;
+}
+
+.elementor-menu-cart__footer-buttons a span{
+    display: none;
+}
+
+.elementor-menu-cart__product:not(:last-of-type), .elementor-menu-cart__products, .elementor-menu-cart__subtotal{
+    border:none !important;
+}
+
+#quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav>li.quadmenu-item-type-cart>.quadmenu-dropdown-menu {
+    width: 240px !important;
+    max-width: 100%;
+    line-height: 18px;
+}
+
+.widget_shopping_cart_content{
+    margin-top: 20px;
+}
+
+.widget_shopping_cart::before{
+    content: 'Resources order';
+}
+
+#quadmenu.quadmenu-custom_theme_1 .widget .widget_shopping_cart_content .elementor-menu-cart__footer-buttons a{
+    height: 45px !important;
+}
+
+.elementor-menu-cart__footer-buttons a::before{
+    content: 'Go to Basket >';
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.elementor-menu-cart__container .elementor-menu-cart__main{
+    background-color: var(--dark-grey) !important;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .elementor-menu-cart__footer-buttons a::before {
+        width: 90%;
+        left: 15px;
+        right: 0px;
+    }
+}
+
+.quadmenu-navbar-nav > li.quadmenu-item-type-cart.quadmenu-cart-empty > .quadmenu-dropdown-menu .widget_shopping_cart{
+    text-transform: initial !important;
+}
+
+.site-title-custom-design .quadmenu-text{
+    color: #BCCCD5;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form#products-grid-search-form {
+    margin-bottom: 36px;
+}
+
+.dashicons-cart:before {
+    content: url(/wp-content/themes/tavi-today-theme/assets/icons/Vector.svg) !important;
+}
+
+span.quadmenu-icon.dashicons.dashicons-email.hover.t_1000{
+    margin-right: 12px !important;
+}
+
+.dashicons-email:before {
+    content: url(/wp-content/themes/tavi-today-theme/assets/icons/newsletter.svg) !important;
+}
+
+.dashicons-search:before {
+    content: url(/wp-content/themes/tavi-today-theme/assets/icons/Search.svg) !important;
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item.sign-up-global-item>a>.quadmenu-item-content>.quadmenu-icon.dashicons-email:before {
+    content: "\f0e0";
+    font-family: 'Font Awesome 5 Free';
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item.sign-up-global-item>a>.quadmenu-item-content>.quadmenu-text{
+    text-transform: initial !important;
+}
+
+#quadmenu .quadmenu-navbar-nav>li.quadmenu-item-type-search>form>.quadmenu-item-content>.quadmenu-icon{
+    opacity: 1 !important;
+}
+
+.quadmenu-item-object-column:not(:nth-of-type(1)){
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+ul.quadmenu-row{
+    margin-top:20px !important;
+}
+
+#quadmenu_0 .quadmenu-item-level-0, #quadmenu_0 .quadmenu-item-level-0 .quadmenu-item-content{
+    padding-right: 0 !important;
+    padding-left: 12px !important;
+}
+
+#quadmenu #quadmenu_1 .quadmenu-navbar-nav li.quadmenu-item>a>.quadmenu-item-content>.quadmenu-caret{
+    z-index: initial
 }
