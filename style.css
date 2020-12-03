@@ -606,3 +606,23 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
 .elementor-accordion .elementor-tab-title{
     margin-top: 16px !important;
 }
+
+/**
+    Home page buttons
+ */
+
+.hp-buttons h4{color: var(--edwards-tavi);}
+
+.hp-buttons span, .hp-buttons h4, .hp-buttons a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
+
+.hp-buttons h4{
+    margin-bottom:0 !important;
+}
+.hp-buttons span{
+    height: 100%;
+}
