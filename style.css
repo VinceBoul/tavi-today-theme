@@ -13,6 +13,7 @@
 @import url('./tavi-quad-menu.css');
 @import url('./tavi-elementor-widget-style.css');
 @import url('./tavi-animated-style.css');
+@import url('./tavi-media-queries.css');
 
 :root {
     /*colors*/
@@ -37,7 +38,7 @@
     color: var(--dark-grey);
 }
 
-body{
+body, html{
     overflow-x: hidden;
 }
 
@@ -606,7 +607,6 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
 .elementor-accordion .elementor-tab-title{
     margin-top: 16px !important;
 }
-
 /**
     Home page buttons
  */
