@@ -1,8 +1,8 @@
 :root{
     /** delete !important if you want font-size change with the size*/
-    --default-font-size:16px !important;
-    --second-font-size:14px !important;
-    --high-font-size:20px !important;
+    --default-font-size:16px;
+    --second-font-size:14px;
+    --high-font-size:20px;
 }
 @media (orientation: portrait) {
     /*SEARCH FORM WIDGET*/
@@ -45,8 +45,8 @@
     and  */(min-width: 360px) and (max-width: 414px) 
     and  (min-height: 640px) and (max-height: 780px){
         :root{
-            --default-font-size:13px;
-            --second-font-size:12px;
+            /*--default-font-size:13px;
+            --second-font-size:12px;*/
         }
         /** CARDVIEW WIDGET*/
         /*.cardview{
@@ -110,8 +110,8 @@
 }
 @media  screen and (min-height: 360px) and (max-height: 414px)   and (orientation:landscape){
         :root{
-            --default-font-size:13px;
-            --second-font-size:12px;
+            /*--default-font-size:13px;
+            --second-font-size:12px;*/
         }
         /** CARDVIEW WIDGET*/
         /*.cardview{
@@ -177,8 +177,8 @@
     and  */(min-width: 375px) and (max-width: 550px) 
     and  (min-height: 720px) and (max-height: 900px){
         :root{
-            --default-font-size:14px;
-            --second-font-size:12px;
+            /*--default-font-size:14px;
+            --second-font-size:12px;*/
         }
         /** CARDVIEW WIDGET*/
         /*.cardview{
@@ -241,8 +241,8 @@
         
 @media  screen and (min-height: 375px) and (max-height: 550px)  and (orientation:landscape){
         :root{
-            --default-font-size:14px;
-            --second-font-size:12px;
+            /*--default-font-size:14px;
+            --second-font-size:12px;*/
         }
         /** CARDVIEW WIDGET*/
         /*.cardview{
@@ -313,8 +313,8 @@
     and  (min-height: 720px) and (max-height: 1200px),
     screen and (min-width: 600px) and (max-width: 900px) and (orientation:portrait){
         :root{
-            --default-font-size:14px;
-            --second-font-size:12px;
+            /*--default-font-size:14px;
+            --second-font-size:12px;*/
         }
         /** CARDVIEW WIDGET*/
         /*.cardview{
@@ -362,8 +362,8 @@
 }
 @media screen and (min-height: 600px) and (max-height: 900px) and (orientation:landscape){
         :root{
-            --default-font-size:14px;
-            --second-font-size:12px;
+            /*--default-font-size:14px;
+            --second-font-size:12px;*/
         }
         /** CARDVIEW WIDGET*/
         /*.cardview{
@@ -414,8 +414,8 @@
     and  (min-height: 900px) and (max-height: 1200px),
     screen and (min-width: 800px) and (max-width: 1000px) and (orientation:portrait){
         :root{
-            --default-font-size:15px;
-            --second-font-size:13px;
+            /*--default-font-size:15px;
+            --second-font-size:13px;*/
         }
         /** CARDVIEW WIDGET*/
         
@@ -462,7 +462,7 @@
         }
 }
 @media screen and  (min-height: 800px) and (max-height: 1000px) and (orientation:landscape){
-        :root{
+        /*:root{
             --default-font-size:15px;
             --second-font-size:13px;
         }
@@ -514,7 +514,7 @@
     and  */ (min-width: 1000px) and (max-width: 1400px)
     and (min-height: 750px) and (max-height: 1100px), 
     screen and (min-width: 1000px) and (max-width: 1400px) and (orientation:portrait){
-        :root{
+        /*:root{
             --default-font-size:15px;
             --second-font-size:12px;
         }
@@ -562,7 +562,7 @@
         }
 }
 @media screen and (min-height: 1000px) and (max-height: 1400px) and (orientation: landscape){
-        :root{
+        /*:root{
             --default-font-size:15px;
             --second-font-size:12px;
         }
@@ -615,7 +615,7 @@
 @media /*screen 
     and  */(min-width: 1280px) and (max-width: 1600px) 
     and  (min-height: 720px) and (max-height: 900px) {
-        :root{
+        /*:root{
             --default-font-size:16px;
             --second-font-size:14px;
         }
@@ -664,7 +664,7 @@
 @media /* screen 
     and  */(min-width: 1920px) 
     and  (min-height: 1100px){
-        :root{
+        /*:root{
             --default-font-size:18px;
             --second-font-size:15px;
         }
