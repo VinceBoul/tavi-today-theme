@@ -1,7 +1,8 @@
 :root{
-    --default-font-size:1rem;
-    --second-font-size:14px;
-    --high-font-size:20px;
+    /** delete !important if you want font-size change with the size*/
+    --default-font-size:1rem !important;
+    --second-font-size:14px !important;
+    --high-font-size:20px !important;
 }
 @media (orientation: portrait) {
     /*SEARCH FORM WIDGET*/
