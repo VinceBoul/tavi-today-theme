@@ -70,12 +70,12 @@
             overflow-y: scroll;
             max-height:50vh;
         }
-        .tavi-table-box{
+        .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 5px;
             padding-right: 5px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 5px;
             padding-right: 5px;
         }
@@ -135,12 +135,12 @@
             overflow-y: scroll;
             max-height:50vh;
         }
-        .tavi-table-box{
+        .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 5px;
             padding-right: 5px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 5px;
             padding-right: 5px;
         }
@@ -201,12 +201,12 @@
             overflow-y: scroll;
             max-height:50vh;
         }
-        .tavi-table-box{
+        .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 5px;
             padding-right: 5px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 5px;
             padding-right: 5px;
         }
@@ -266,12 +266,12 @@
             overflow-y: scroll;
             max-height:50vh;
         }
-        .tavi-table-box{
+        .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 5px;
             padding-right: 5px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 5px;
             padding-right: 5px;
         }
@@ -333,12 +333,12 @@
             display:flex;
         }
         /** TAVI TABLE*/
-        .tavi-table-box{
+        .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 10px;
             padding-right: 10px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 7px;
             padding-right: 7px;
         }
@@ -382,12 +382,12 @@
             display:flex;
         }
          /** TAVI TABLE*/
-         .tavi-table-box{
+         .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 10px;
             padding-right: 10px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 7px;
             padding-right: 7px;
         }
@@ -435,12 +435,12 @@
             display:flex;
         }
          /** TAVI TABLE*/
-         .tavi-table-box{
+         .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 10px;
             padding-right: 10px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 7px;
             padding-right: 7px;
         }
@@ -483,12 +483,12 @@
             display:flex;
         }
          /** TAVI TABLE*/
-         .tavi-table-box{
+         .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 10px;
             padding-right: 10px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 7px;
             padding-right: 7px;
         }
@@ -535,12 +535,12 @@
             display:flex;
         }
         /** TAVI TABLE*/
-        .tavi-table-box{
+        .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 10px;
             padding-right: 10px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 7px;
             padding-right: 7px;
         }
@@ -583,12 +583,12 @@
             display:flex;
         }
          /** TAVI TABLE*/
-         .tavi-table-box{
+         .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 10px;
             padding-right: 10px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 7px;
             padding-right: 7px;
         }
@@ -635,12 +635,12 @@
             display:flex;
         }
          /** TAVI TABLE*/
-         .tavi-table-box{
+         .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 20px;
             padding-right: 20px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 10px;
             padding-right: 10px;
         }
@@ -684,12 +684,12 @@
             display:flex;
         }
          /** TAVI TABLE*/
-         .tavi-table-box{
+         .tavi-table-box:not(.tavi-table-box-flex){
             padding-left: 20px;
             padding-right: 20px;
         }
-        .tavi-table-box.tavi-table-subbox, 
-        .tavi-table-box.tavi-table-subTitleBox{
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subbox,
+        .tavi-table-box:not(.tavi-table-box-flex).tavi-table-subTitleBox{
             padding-left: 10px;
             padding-right: 10px;
         }
