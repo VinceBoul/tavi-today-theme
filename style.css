@@ -524,6 +524,9 @@ div.woocommerce-message a.button{
 
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
     background: var(--neutral-blue) !important;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
 }
 .woocommerce #payment #place_order:hover, .woocommerce-page #payment #place_order:hover{
     background: var(--edwards-tavi) !important;
@@ -645,4 +648,55 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
 
 .flickity-viewport{
     height: 500px !important;
+}
+
+.woocommerce-billing-fields input[type=text],
+.woocommerce-billing-fields input[type=email] {
+    padding: 17px 10px;
+    height: auto !important;
+    border: 1px solid var(--dark-grey);
+    border-radius: 4px;
+    background-color: transparent;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+.woocommerce-billing-fields select{
+    padding: 17px 10px;
+    height: auto !important;
+    border: 1px solid var(--dark-grey);
+    border-radius: 4px;
+    background-color: transparent;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='9' viewBox='0 0 14 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13 1L7 7L0.999999 0.999999' stroke='%23505759' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+.woocommerce-billing-fields .select2-container--default .select2-selection--single{
+    border:none;
+}
+
+.woocommerce-billing-fields .select2-selection__arrow{
+    display: none;
+}
+
+.woocommerce-billing-fields .select2-container--default .select2-selection--single .select2-selection__rendered{
+    margin-top: -3px;
+    padding: 16px 10px;
+    height: auto !important;
+    border: 1px solid var(--dark-grey);
+    border-radius: 4px;
+    background-color: transparent;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='9' viewBox='0 0 14 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13 1L7 7L0.999999 0.999999' stroke='%23505759' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
 }
