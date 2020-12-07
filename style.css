@@ -71,6 +71,14 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+a{
+    color: var(--dark-grey);
+}
+
+a:hover{
+    color: var(--edwards-tavi);
+}
+
 .edward-tavi-text {
     font-size: var(--default-font-size);
     line-height: var(--default-line-height);
@@ -301,6 +309,11 @@ h4 {
     margin-bottom: 16px !important;
 }
 
+span.elementor-icon-list-icon i {
+    vertical-align: middle;
+    padding-bottom: 2px;
+}
+
 .drop-shadow:hover {
     filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.25));
 }
@@ -522,7 +535,7 @@ div.woocommerce-message a.button{
     width: 100% !important;
 }
 
-.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+.woocommerce #payment #place_order, .woocommerce-page #payment button#place_order{
     background: var(--neutral-blue) !important;
     font-size: 16px;
     font-weight: normal;
@@ -596,6 +609,12 @@ div.woocommerce-message a.button{
 
 a.action-link:hover, .action-link a:hover, .action-link button:hover{
     color: var(--edwards-tavi) !important;
+    background: none !important;
+    opacity: 1;
+}
+
+a.action-link:hover > svg > path, .action-link a:hover > svg > path, .action-link button:hover > svg > path{
+    stroke: var(--edwards-tavi) !important;
     background: none !important;
     opacity: 1;
 }
