@@ -75,6 +75,10 @@ a{
     color: var(--dark-grey);
 }
 
+.woocommerce-cart-form__cart-item a{
+    color: white;
+}
+
 a:hover{
     color: var(--edwards-tavi);
 }
