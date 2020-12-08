@@ -631,6 +631,13 @@ a.other-page-link:hover, a.other-page-link:hover span, .other-page-link a:hover{
     opacity: 1;
 }
 
+a.parent-page-link, .parent-page-link a{
+    color: #7a99ac !important;
+    text-decoration: underline !important;
+    background: none !important;
+    opacity: 1;
+}
+
 a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hover{
     color: #477896 !important;
     text-decoration: underline;
