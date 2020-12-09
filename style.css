@@ -19,6 +19,7 @@
     /*colors*/
     --edwards-tavi: #C8102E;
     --dark-grey: #505759;
+    --faded-dark-grey: #505759CC;
     --light-blue: #D7E0E6;
     --neutral-blue: #7A99AC;
     --mystic-white: #E4EBEE;
@@ -65,6 +66,18 @@ body, html{
     height: 24px;
     width: 24px;
     position: absolute;
+}
+
+.read-more-link, .read-more-link a{
+    color: var(--faded-dark-grey) !important;
+}
+
+.read-more-link a ~ svg>path, .read-more-link svg>path{
+    stroke: var(--edwards-tavi) !important;
+}
+
+.read-more-link:hover, .read-more-link a:hover{
+    color: var(--edwards-tavi) !important;
 }
 
 #page .tavi-products-highlight-carousel-wrapper .flickity-page-dots{
@@ -131,12 +144,12 @@ a:hover{
 
 @media (min-width: 1140px) {
     .generic-spacing-left {
-        padding-left: calc(50vw - 560px);
+        padding-left: calc(50vw - 570px);
         padding-right: 32px;
     }
 
     .generic-spacing-right {
-        padding-right: calc(50vw - 560px);
+        padding-right: calc(50vw - 570px);
         padding-left: 32px;
     }
 }
