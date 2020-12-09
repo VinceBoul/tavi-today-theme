@@ -93,12 +93,12 @@ a{
 }
 
 
-#page .elementor-widget-container .elementor-text-editor a:not(.elementor-button-link, .other-page-link, .action-link, .parent-page-link){
+#page .elementor-widget-container .elementor-text-editor :not(.elementor-button-link):not(.other-page-link):not(action-link):not(.parent-page-link) a:not(.elementor-button-link):not(.other-page-link):not(action-link):not(.parent-page-link){
     text-decoration: underline;
     color: var(--dark-grey);
 }
 
-#page .elementor-widget-container .elementor-text-editor a:not(.elementor-button-link, .other-page-link, .action-link, .parent-page-link):hover{
+#page .elementor-widget-container .elementor-text-editor :not(.elementor-button-link):not(.other-page-link):not(action-link):not(.parent-page-link) a:not(.elementor-button-link):not(.other-page-link):not(action-link):not(.parent-page-link):hover{
     text-decoration: underline;
     color: var(--edwards-tavi);
 }
@@ -316,13 +316,17 @@ a:hover{
     /* Remove default bullets */
 }
 
+.elementor-text-editor ul li{
+    margin-left: 15px;
+}
+
 .elementor-text-editor ul li::before {
     content: "\2022";
     color: rgba(80, 87, 89, 0.5);
     font-weight: bold;
     display: inline-block;
-    width: 16px;
-    margin-left: -16px;
+    width: 31px;
+    margin-left: -31px;
     font-size: 24px;
     vertical-align: middle;
 }
@@ -400,6 +404,11 @@ span.elementor-icon-list-icon i {
 
 .mktoFormRow {
     width: 0;
+}
+
+#confirmnewsletterform {
+    height: 40px !important;
+    margin-top: -40px !important;
 }
 
 .mktoForm .mktoFormRow:nth-of-type(-n+3) {
