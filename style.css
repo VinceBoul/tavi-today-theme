@@ -67,6 +67,10 @@ body, html{
     position: absolute;
 }
 
+#page .tavi-products-highlight-carousel-wrapper .flickity-page-dots{
+    bottom: -60px;
+}
+
 body {
     font-family: Montserrat, sans-serif;
 }
@@ -75,8 +79,20 @@ a{
     color: var(--dark-grey);
 }
 
+
+#page .elementor-widget-container .elementor-text-editor a:not(.elementor-button-link, .other-page-link, .action-link, .parent-page-link){
+    text-decoration: underline;
+    color: var(--dark-grey);
+}
+
+#page .elementor-widget-container .elementor-text-editor a:not(.elementor-button-link, .other-page-link, .action-link, .parent-page-link):hover{
+    text-decoration: underline;
+    color: var(--edwards-tavi);
+}
+
 .woocommerce-cart-form__cart-item a{
     color: white;
+    text-decoration: none;
 }
 
 a:hover{
@@ -289,18 +305,13 @@ a:hover{
 
 .elementor-text-editor ul li::before {
     content: "\2022";
-    /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: rgba(80, 87, 89, 0.5);
-    /* Change the color */
     font-weight: bold;
-    /* If you want it to be bold */
     display: inline-block;
-    /* Needed to add space between the bullet and the text */
-
-    width: 1em;
-    /* Also needed for space (tweak if needed) */
-    margin-left: -1em;
-    /* Also needed for space (tweak if needed) */
+    width: 16px;
+    margin-left: -16px;
+    font-size: 24px;
+    vertical-align: middle;
 }
 
 h1,
@@ -352,6 +363,10 @@ span.elementor-icon-list-icon i {
     border-radius: 5px;
     padding: 13px 30px !important;
     margin-top: 47px;
+}
+
+.mktoForm button, .mktoForm input, .mktoForm select, .mktoForm textarea{
+    font-family: "Merriweather Sans", "Arial";
 }
 
 .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover{
@@ -681,6 +696,10 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     height: 485px !important;
 }
 
+.tavi-products-highlight-carousel-wrapper .flickity-viewport{
+    margin-bottom: 40px;
+}
+
 .woocommerce-billing-fields input[type=text],
 .woocommerce-billing-fields input[type=email] {
     padding: 17px 10px;
@@ -730,4 +749,24 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     background-repeat: no-repeat;
     background-position-x: calc(100% - 10px);
     background-position-y: center;
+}
+
+@media (max-width: 767px){
+    .elementor-icon-box-wrapper{
+        width: fit-content;
+        flex-direction: row;
+        display: flex;
+    }
+    .elementor-icon-box-wrapper .elementor-icon-box-icon{
+        padding-right: 16px;
+        margin-top: 2px;
+    }
+    .watch-icon .elementor-icon-box-wrapper{
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .watch-icon .elementor-icon-box-wrapper .elementor-icon-box-icon{
+        padding-left: 16px;
+        margin-top: 2px;
+    }
 }
