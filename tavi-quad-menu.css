@@ -308,6 +308,29 @@ form#products-grid-search-form {
     margin-bottom: 36px;
 }
 
+/* Edge < 79 */
+@supports (-ms-ime-align: auto) {
+    #quadmenu .quadmenu-navbar-nav .sign-up-global-item, #quadmenu .quadmenu-navbar-nav .site-title-custom-design{
+        padding-top: 0 !important;
+    }
+    /* Edge 18 */
+    #quadmenu .quadmenu-navbar-nav .sign-up-global-item .quadmenu-item-content, #quadmenu .quadmenu-navbar-nav .site-title-custom-design .quadmenu-item-content{
+        padding-top: 7px !important;
+    }
+
+    #quadmenu .quadmenu-navbar-nav .sign-up-global-item .quadmenu-item-content .dashicons-email{
+        padding-right: 0px !important;
+        width: 18px !important;
+        margin-right: 4px !important;
+        right: 0px !important;
+    }
+    #quadmenu .quadmenu-navbar-nav>li.quadmenu-item-type-search>form>.quadmenu-item-content>.quadmenu-icon.dashicons-search{
+        height: 18px;
+        width: 18px;
+        left: 14px;
+    }
+}
+
 .dashicons-cart:before {
     content: url(/wp-content/themes/tavi-today-theme/assets/icons/Vector.svg) !important;
 }
