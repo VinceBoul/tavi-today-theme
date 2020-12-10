@@ -318,6 +318,7 @@ a:hover{
 
 .elementor-text-editor ul li{
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .elementor-text-editor ul li::before {
@@ -500,7 +501,11 @@ span.elementor-icon-list-icon i {
     height: 0;
 }
 
-div#teconsent a::before {
+.half-500-center{
+    padding-left: calc(50% - 240px);
+}
+
+/*div#teconsent a::before {
     content: "Cookie Policy";
     font-family: Merriweather Sans;
     font-style: normal;
@@ -513,7 +518,7 @@ div#teconsent a::before {
 
 div#teconsent img {
     display: none;
-}
+}*/
 
 @media(max-width: 768px){
     #mktoForm_8968 {
@@ -669,14 +674,14 @@ a.other-page-link:hover, a.other-page-link:hover span, .other-page-link a:hover{
 }
 
 a.parent-page-link, .parent-page-link a{
-    color: #7a99ac !important;
+    color: var(--primary-gray) !important;
     text-decoration: underline !important;
     background: none !important;
     opacity: 1;
 }
 
 a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hover{
-    color: #477896 !important;
+    color: var(--edwards-tavi) !important;
     text-decoration: underline;
     background: none !important;
     opacity: 1;
