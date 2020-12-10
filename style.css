@@ -386,7 +386,7 @@ span.elementor-icon-list-icon i {
     font-family: "Merriweather Sans", "Arial";
 }
 
-.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover{
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover, .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:focus{
     background: var(--edwards-tavi) !important;
 }
 
