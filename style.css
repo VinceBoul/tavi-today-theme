@@ -355,7 +355,7 @@ span.elementor-icon-list-icon i {
     Slider section
  */
 
-@media(min-width: 768px) {
+@media(min-width: 1024px) {
     .custom-slider .swiper-slide-contents {
         width: 100%;
         margin-left: calc(50vw - 520px) !important;
