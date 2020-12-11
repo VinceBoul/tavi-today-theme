@@ -395,3 +395,50 @@ ul.quadmenu-row{
 #quadmenu #quadmenu_1 .quadmenu-navbar-nav li.quadmenu-item>a>.quadmenu-item-content>.quadmenu-caret{
     z-index: initial
 }
+
+
+/* ETT-184 */
+@media (max-width: 1025px){
+    .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap{
+        height: 75px;
+    }
+    .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-image img.attachment-full.size-full{
+        position: absolute;
+        top: -19px;
+        height: 100px !important;
+        width: 87px !important;
+    }
+    .elementor-widget-Responsive.menu .elementor-widget-container{
+        padding-top: 30px !important;
+    }
+
+    .elementor-location-header .elementor-top-section{
+        margin-bottom: 30px !important;
+    }
+
+    /*
+    #content .elementor-top-section.elementor-section-stretched.elementor-hidden-phone.elementor-section-boxed:first-child{
+
+    }*/
+
+}
+
+@media (max-width: 768px){
+    .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-image img.attachment-full.size-full {
+        top: -14px;
+    }
+    .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-widget-icon .elementor-widget-container{
+        margin-top: 14px;
+    }
+    .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-widget-woocommerce-menu-cart .elementor-widget-container{
+        padding-top: 3px;
+    }
+
+    .elementor-location-header .elementor-top-section{
+        margin-bottom: 40px !important;
+    }
+    /*
+    #content.elementor-top-section.elementor-section-stretched.elementor-hidden-desktop.elementor-hidden-tablet.elementor-section-boxed{
+        padding-top: 30px;
+    }*/
+}
