@@ -225,10 +225,6 @@ nav.secondary-navigation{
 }
 
 @supports (-ms-ime-align: auto) {
-    #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search input::-ms-input-placeholder,
-    #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search input:-ms-input-placeholder{
-        color: white;
-    }
 
     #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search input:focus{
         width: 210px;
@@ -236,13 +232,7 @@ nav.secondary-navigation{
         box-sizing: border-box;
         border-radius: 5px;
     }
-
-    #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > .quadmenu-item-content:focus .quadmenu-icon{
-        display: none;
-    }
-    #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > .quadmenu-item-content:focus span {
-        display: none;
-    }
+    
 }
 
 #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search > form:focus-within .quadmenu-icon{
