@@ -1,6 +1,7 @@
 /* Accessibility */
 #quadmenu a:focus, #quadmenu button:focus {
     outline: auto !important;
+    outline-offset: 1px !important;
 }
 
 /*
