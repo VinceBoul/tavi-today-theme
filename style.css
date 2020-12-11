@@ -92,6 +92,10 @@ a{
     color: var(--dark-grey);
 }
 
+#page a:active{
+    color: inherit;
+}
+
 
 #page .elementor-widget-container .elementor-text-editor :not(.elementor-button-link):not(.other-page-link):not(action-link):not(.parent-page-link) a:not(.elementor-button-link):not(.other-page-link):not(action-link):not(.parent-page-link){
     text-decoration: underline;
