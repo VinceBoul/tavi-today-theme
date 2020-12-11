@@ -1,12 +1,17 @@
 $(function (){
 
+	var $searchInput = $('#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search input');
 	if (navigator.sayswho === "Edge 18"){
-		$('#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search input').on('focus', function(){
+		$searchInput.on('focus', function(){
 			$(this).closest('.quadmenu-item-content').find('.quadmenu-icon').hide();
 		}).on('focusout', function(){
 			$(this).closest('.quadmenu-item-content').find('.quadmenu-icon').show();
 		});
 	}
+
+	$searchInput.on('focusout', function(){
+		$(this).val('');
+	});
 });
 
 
