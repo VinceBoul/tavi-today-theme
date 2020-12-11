@@ -1,3 +1,9 @@
+/* Accessibility */
+#quadmenu a:focus, #quadmenu button:focus {
+    outline: auto !important;
+    outline-offset: 1px !important;
+}
+
 /*
     Secondary menu
 */
@@ -11,8 +17,9 @@
 #quadmenu_0 ul.quadmenu-navbar-nav{
     text-align: right !important;
 }
+
 /*
-    Primary Manu
+    Primary Menu
 */
 
 #quadmenu_1{
@@ -36,7 +43,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: var(--default-font-size);
-    line-height: 24px;  
+    line-height: 24px;
 }
 #quadmenu .tavi-quad-menu-item li[class~=quadmenu-item] p>strong,
 .main-navigation .main-nav  .tavi-quad-menu-item  ul li[class~=menu-item] a{
