@@ -727,6 +727,7 @@
     .elementor-location-header .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-image img.attachment-full.size-full{
         position: absolute;
         top: -19px;
+        z-index: 11;
         height: 100px !important;
         width: 87px !important;
     }
@@ -736,6 +737,10 @@
 
     .elementor-location-header .elementor-top-section{
         margin-bottom: 30px !important;
+    }
+
+    .elementor-top-section.home-slider{
+        top: -30px;
     }
 }
 
@@ -752,5 +757,9 @@
 
     .elementor-location-header .elementor-top-section{
         margin-bottom: 40px !important;
+    }
+
+    .elementor-top-section.home-slider{
+        top: -40px;
     }
 }
