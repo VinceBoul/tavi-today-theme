@@ -712,3 +712,45 @@
         }
     
 }
+
+@media(max-width: 1025px){
+    nav#quadmenu{
+        background: none !important;
+    }
+}
+
+/* ETT-184 */
+@media (max-width: 1025px){
+    .elementor-location-header .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap{
+        height: 75px;
+    }
+    .elementor-location-header .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-image img.attachment-full.size-full{
+        position: absolute;
+        top: -19px;
+        height: 100px !important;
+        width: 87px !important;
+    }
+    .elementor-widget-Responsive.menu .elementor-widget-container{
+        padding-top: 30px !important;
+    }
+
+    .elementor-location-header .elementor-top-section{
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (max-width: 768px){
+    .elementor-location-header .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-image img.attachment-full.size-full {
+        top: -14px;
+    }
+    .elementor-location-header .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-widget-icon .elementor-widget-container{
+        margin-top: 14px;
+    }
+    .elementor-location-header .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-widget-woocommerce-menu-cart .elementor-widget-container{
+        padding-top: 3px;
+    }
+
+    .elementor-location-header .elementor-top-section{
+        margin-bottom: 40px !important;
+    }
+}
