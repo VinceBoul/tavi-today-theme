@@ -19,7 +19,7 @@
     /*colors*/
     --edwards-tavi: #C8102E;
     --dark-grey: #505759;
-    --faded-dark-grey: #505759CC;
+    --faded-dark-grey: rgba(80, 87, 89, 0.80);
     --light-blue: #D7E0E6;
     --neutral-blue: #7A99AC;
     --mystic-white: #E4EBEE;
@@ -689,6 +689,13 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     text-decoration: underline;
     background: none !important;
     opacity: 1;
+}
+
+/* Elementor link for Edge 18 */
+.elementor-button-link{
+    fill: var(--faded-dark-grey) !important;
+    color: var(--faded-dark-grey) !important;
+    background-color: rgba(97, 206, 112, 0.00) !important;
 }
 
 
