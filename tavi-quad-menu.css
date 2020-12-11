@@ -399,7 +399,7 @@ ul.quadmenu-row{
 
 /* ETT-184 */
 @media (max-width: 1025px){
-    .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap{
+    .elementor-location-header .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap{
         height: 75px;
     }
     .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-image img.attachment-full.size-full{
