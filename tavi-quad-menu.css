@@ -248,6 +248,13 @@ nav.secondary-navigation{
     border-radius: 5px;
 }
 
+.elementor-element.elementor-hidden-phone.tablet-reduced-space.elementor-widget.elementor-widget-quadmenu{
+    z-index: 10;
+}
+nav#quadmenu{
+    background: none !important;
+}
+
 .elementor-menu-cart__footer-buttons a {
     text-align: center !important;
     height:20px !important;
