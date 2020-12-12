@@ -728,15 +728,19 @@
         position: absolute;
         top: -19px;
         z-index: 11;
-        height: 100px !important;
-        width: 87px !important;
+        /*Breaking the layout*/
+        /*height: 100px !important;
+        width: 87px !important;*/
+        height: 55px !important;
+        width: 40px !important;
     }
     .elementor-widget-Responsive.menu .elementor-widget-container{
         padding-top: 30px !important;
     }
 
     .elementor-location-header .elementor-top-section{
-        margin-bottom: 30px !important;
+        /*Breaking the layout
+        margin-bottom: 30px !important;*/
     }
 
     .elementor-top-section.home-slider{

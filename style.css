@@ -519,10 +519,10 @@ span.elementor-icon-list-icon i {
     color: #FFFFFF;
     cursor: pointer;
 }
-
+*/
 div#teconsent img {
-    display: none;
-}*/
+    max-height: 30px;
+}
 
 @media(max-width: 768px){
     #mktoForm_8968 {
@@ -808,4 +808,33 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
         padding-left: 16px;
         margin-top: 2px;
     }
+}
+
+.double-cross-footnote:before{
+    position: absolute;
+    content: "‡";
+    left: 0;
+}
+
+.underneath-footnote{
+    padding-left: 16px;
+    display: block;
+}
+
+.simple-cross-footnote:before{
+    position: absolute;
+    content: "†";
+    left: 0;
+}
+
+.star-footnote:before{
+    position: absolute;
+    content: "*";
+    left: 0;
+}
+
+.paragraph-footnote:before{
+    position: absolute;
+    content: "§";
+    left: 0;
 }
