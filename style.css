@@ -691,13 +691,14 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     opacity: 1;
 }
 
-/* Elementor link for Edge 18 */
-.elementor-button-link{
-    fill: var(--faded-dark-grey) !important;
-    color: var(--faded-dark-grey) !important;
-    background-color: rgba(97, 206, 112, 0.00) !important;
+@supports (-ms-ime-align: auto) {
+    /* Elementor link for Edge 18 */
+    .elementor-button-link {
+        fill: var(--faded-dark-grey) !important;
+        color: var(--faded-dark-grey) !important;
+        background-color: rgba(97, 206, 112, 0.00) !important;
+    }
 }
-
 
 .elementor-icon-box-wrapper:hover .elementor-icon-box-icon a svg path{
     fill: var(--edwards-tavi);
