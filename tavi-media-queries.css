@@ -728,19 +728,15 @@
         position: absolute;
         top: -19px;
         z-index: 11;
-        /*Breaking the layout*/
-        /*height: 100px !important;
-        width: 87px !important;*/
-        height: 55px !important;
-        width: 40px !important;
+        height: 100px !important;
+        width: 87px !important;
     }
     .elementor-widget-Responsive.menu .elementor-widget-container{
         padding-top: 30px !important;
     }
 
-    .elementor-location-header .elementor-top-section{
-        /*Breaking the layout
-        margin-bottom: 30px !important;*/
+    #page>#content .elementor-inner>.elementor-section-wrap>section:first-of-type{
+        padding-top: 30px !important;
     }
 
     .elementor-top-section.home-slider{
