@@ -735,12 +735,12 @@
         padding-top: 30px !important;
     }
 
-    #page>#content .elementor-inner>.elementor-section-wrap>section:first-of-type{
+    #page>#content .elementor-inner>.elementor-section-wrap>section:first-of-type .elementor-top-column .elementor-top-column:first-of-type{
         padding-top: 30px !important;
     }
 
-    .elementor-top-section.home-slider{
-        top: -30px;
+    #page>#content .elementor-inner>.elementor-section-wrap>section.custom-carousel{
+        padding-top: 30px !important;
     }
 }
 
@@ -755,11 +755,8 @@
         padding-top: 3px;
     }
 
-    .elementor-location-header .elementor-top-section{
-        margin-bottom: 40px !important;
+    #page>#content .elementor-inner>.elementor-section-wrap>section:first-of-type .elementor-top-column .elementor-top-column:first-of-type{
+        padding-top: 30px !important;
     }
 
-    .elementor-top-section.home-slider{
-        top: -40px;
-    }
 }
