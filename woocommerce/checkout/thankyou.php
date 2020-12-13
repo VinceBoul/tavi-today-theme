@@ -45,7 +45,7 @@ defined('ABSPATH') || exit;
 
         <h1 class="elementor-heading-title elementor-size-default">Thank you!</h1>
 
-        <div class="elementor-text-editor elementor-clearfix"><p>Your order has been placed and materials will be sent to you in the within 14 days.</p></div>
+        <div class="elementor-text-editor elementor-clearfix"><p>Your order has been placed and materials will be sent to you within 14 days.</p></div>
 
 
         <div class="rounded-button-container " _colorbg="neutral blue" style="width: max-content;height:max-content;">
