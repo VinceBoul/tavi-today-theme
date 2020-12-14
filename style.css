@@ -37,6 +37,12 @@
     --default-line-height: 24px;
     --default-font-size: 16px;
     color: var(--dark-grey);
+
+    /*Generic spacings*/
+    --l-spacing: 56px;
+    --m-spacing: 40px;
+    --s-spacing: 32px;
+    --xs-spacing: 24px;
 }
 
 body, html{
@@ -153,12 +159,12 @@ a:hover{
 @media (min-width: 1140px) {
     .generic-spacing-left {
         padding-left: calc(50vw - 570px);
-        padding-right: 32px;
+        padding-right: var(--s-spacing);
     }
 
     .generic-spacing-right {
         padding-right: calc(50vw - 570px);
-        padding-left: 32px;
+        padding-left: var(--s-spacing);
     }
 }
 
@@ -340,14 +346,29 @@ a:hover{
     vertical-align: middle;
 }
 
-h1,
-h2 {
-    margin-bottom: 32px !important;
+#page h1, h1{
+    margin-bottom: var(--l-spacing);
 }
 
-h3,
-h4 {
-    margin-bottom: 16px !important;
+#page h2, h2{
+    margin-bottom: var(--m-spacing);
+}
+
+#page h3, h3{
+    margin-bottom: var(--s-spacing);
+}
+
+#page h4, h4, #page h5, h5{
+    margin-bottom: var(--xs-spacing);
+}
+
+#page p, p, #page ul{
+    margin-bottom: var(--m-spacing);
+}
+
+#page .tavi-section{
+    padding-top: var(--m-spacing);
+    padding-bottom: var(--l-spacing);
 }
 
 span.elementor-icon-list-icon i {
@@ -843,6 +864,14 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     left: 0;
 }
 
+.mb-generic-spacing-s{
+    margin-bottom: var(--s-spacing);
+}
+
+.mt-generic-spacing-s{
+    margin-top: var(--s-spacing);
+}
+
 /**
     ETT-179 Carousel image deactivated in tablet
  */
@@ -853,3 +882,13 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
         background-color: var(--mystic-white) !important;
     }
 }
+
+/**
+    Project #BigBang
+ */
+
+
+
+/*
+    EOP
+**/
