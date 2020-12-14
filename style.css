@@ -932,49 +932,55 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     Project #BigBang
  */
 
-.elementor-accordion-item .elementor-tab-content>p, .elementor-tabs .elementor-tab-content>p{
+#page .elementor-accordion-item .elementor-tab-content>p, .elementor-tabs .elementor-tab-content>p{
     margin-bottom: 0 !important;
 }
 
-.tavi-table-container{
+#page .tavi-table-container{
     margin-bottom: var(--xs-spacing);
 }
 
-.elementor-accordion .elementor-tab-title h3{
+#page .elementor-accordion .elementor-tab-title h3{
     margin-bottom: 0 !important;
 }
 
-.elementor-accordion-item .elementor-tab-content {
+#page .elementor-accordion-item .elementor-tab-content {
     padding-bottom: var(--l-spacing);
 }
 
-.elementor-text-editor ol li ul {
+#page .elementor-text-editor ol li ul {
     margin-top: 10px;
 }
 
-.elementor-widget-tabs .elementor-tab-content{
+#page .elementor-widget-tabs .elementor-tab-content{
     padding: var(--m-spacing) 0 0 0 !important;
 }
 
-.elementor-accordion .elementor-tab-content{
+#page .elementor-accordion .elementor-tab-content{
     padding: 0 0 var(--l-spacing) 0 !important;
 }
 
-.elementor-accordion .elementor-accordion-item:last-child .elementor-tab-content {
+#page .elementor-accordion .elementor-accordion-item:last-child .elementor-tab-content {
     padding-bottom: 0 !important;
 }
 
-.elementor-widget-icon-box {
+#page .elementor-widget-icon-box {
     margin-top: var(--m-spacing);
 }
 
-.elementor-widget .elementor-icon-list-item{
+#page .elementor-widget .elementor-icon-list-item{
     margin-bottom: 10px !important;
 }
 
 #page .tavi-section>.elementor-container>.elementor-row >.elementor-element:last-child  .elementor-widget:last-of-type>.elementor-widget-container>.elementor-text-editor,
 #page .tavi-section>.elementor-container>.elementor-row >.elementor-element:last-child  .elementor-widget:last-of-type>.elementor-widget-container>ul{
     margin-bottom: 0;
+}
+
+#page .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+
 }
 
 @media (max-width: 768px) {
