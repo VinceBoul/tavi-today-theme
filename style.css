@@ -39,14 +39,14 @@
     color: var(--dark-grey);
 
     /*Generic spacings*/
-    --ll-spacing: 112px;
-    --xl-spacing: 70px;
-    --ml-spacing: 96px;
-    --l-spacing: 56px;
-    --m-spacing: 40px;
-    --s-spacing: 32px;
-    --xs-spacing: 24px;
-    --xxs-spacing: 16px;
+    --ll-spacing: 7em;
+    --xl-spacing: 4.375em;
+    --ml-spacing: 6em;
+    --l-spacing: 3.5em;
+    --m-spacing: 2.5em;
+    --s-spacing: 2em;
+    --xs-spacing: 1.5em;
+    --xxs-spacing: 1em;
 }
 
 body, html{
@@ -962,6 +962,10 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
 
 .elementor-accordion .elementor-accordion-item:last-child .elementor-tab-content {
     padding-bottom: 0 !important;
+}
+
+.elementor-widget-icon-box {
+    margin-top: var(--m-spacing);
 }
 
 /*
