@@ -842,3 +842,14 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     content: "§";
     left: 0;
 }
+
+/**
+    ETT-179 Carousel image deactivated in tablet
+ */
+
+@media (max-width: 1024px) {
+    .home-slider .swiper-slide-bg {
+        background-image: none !important;
+        background-color: var(--mystic-white) !important;
+    }
+}
