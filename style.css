@@ -174,13 +174,18 @@ a:hover{
 
 @media (max-width: 1140px) {
     .generic-spacing-left {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     .generic-spacing-right {
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    #page .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
+        padding-right: 24px !important;
+        padding-left: 24px !important;
     }
 }
 
@@ -595,7 +600,6 @@ div#teconsent img {
 @media(max-width: 768px){
     #mktoForm_8968 {
         flex-direction: column;
-        margin: 0;
         padding: 0;
     }
 
@@ -991,6 +995,11 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     .elementor-tab-mobile-title{
         display: none;
     }
+
+    #page .elementor-section:not(.home-slider) .swiper-pagination {
+        padding-bottom: 40px;
+    }
+
 }
 
 /*
