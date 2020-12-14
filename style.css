@@ -40,7 +40,7 @@
 
     /*Generic spacings*/
     --ll-spacing: 112px;
-    --xl-spacing: 64px;
+    --xl-spacing: 70px;
     --l-spacing: 56px;
     --m-spacing: 40px;
     --s-spacing: 32px;
@@ -800,7 +800,7 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
 }
 
 .tavi-products-highlight-carousel-wrapper{
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 
 .woocommerce-billing-fields input[type=text],
