@@ -735,10 +735,6 @@
         padding-top: 30px !important;
     }
 
-    #page>#content .elementor-inner>.elementor-section-wrap>section:first-of-type .elementor-top-column .elementor-top-column:first-of-type{
-        padding-top: 30px !important;
-    }
-
     #page>#content .elementor-inner>.elementor-section-wrap>section.custom-carousel{
         padding-top: 30px !important;
     }
@@ -753,10 +749,6 @@
     }
     .elementor-location-header .elementor-top-section > .elementor-container .elementor-top-column > .elementor-column-wrap > .elementor-widget-wrap .elementor-widget-woocommerce-menu-cart .elementor-widget-container{
         padding-top: 3px;
-    }
-
-    #page>#content .elementor-inner>.elementor-section-wrap>section:first-of-type .elementor-top-column .elementor-top-column:first-of-type{
-        padding-top: 30px !important;
     }
 
 }

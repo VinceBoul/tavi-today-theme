@@ -41,6 +41,7 @@
     /*Generic spacings*/
     --ll-spacing: 112px;
     --xl-spacing: 70px;
+    --ml-spacing: 96px;
     --l-spacing: 56px;
     --m-spacing: 40px;
     --s-spacing: 32px;
@@ -385,6 +386,11 @@ a:hover{
     padding-bottom: var(--l-spacing);
 }
 
+#page .tavi-section.under-main-section{
+    padding-top: var(--ml-spacing);
+    padding-bottom: var(--l-spacing);
+}
+
 #page .tavi-last-section{
     padding-top: var(--m-spacing);
     padding-bottom: var(--ll-spacing);
@@ -392,14 +398,14 @@ a:hover{
 
 @media(max-width: 1024px){
     #page .tavi-first-section{
-        padding-top: var(--xl-spacing);
+        padding-top: var(--l-spacing);
         padding-bottom: var(--l-spacing);
     }
 }
 
 @media (min-width: 1025px) {
     #page .tavi-first-section{
-        padding-top: var(--m-spacing);
+        padding-top: var(--xl-spacing);
         padding-bottom: var(--l-spacing);
     }
 }
