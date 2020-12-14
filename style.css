@@ -68,6 +68,10 @@ body, html{
     position: absolute;
 }
 
+.site-footer .elementor-social-icons-wrapper .elementor-grid-item{
+    margin-right: 15px;
+}
+
 .read-more-link, .read-more-link a{
     color: var(--faded-dark-grey) !important;
 }
