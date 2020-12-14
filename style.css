@@ -39,14 +39,14 @@
     color: var(--dark-grey);
 
     /*Generic spacings*/
-    --ll-spacing: 7em;
-    --xl-spacing: 4.375em;
-    --ml-spacing: 6em;
-    --l-spacing: 3.5em;
-    --m-spacing: 2.5em;
-    --s-spacing: 2em;
-    --xs-spacing: 1.5em;
-    --xxs-spacing: 1em;
+    --ll-spacing: 7rem;
+    --xl-spacing: 4.375rem;
+    --ml-spacing: 6rem;
+    --l-spacing: 3.5rem;
+    --m-spacing: 2.5rem;
+    --s-spacing: 2rem;
+    --xs-spacing: 1.5rem;
+    --xxs-spacing: 1rem;
 }
 
 body, html{
