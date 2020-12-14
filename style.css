@@ -968,6 +968,25 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     margin-top: var(--m-spacing);
 }
 
+.elementor-widget .elementor-icon-list-item{
+    margin-bottom: 10px !important;
+}
+
+#page .tavi-section>.elementor-container>.elementor-row >.elementor-element:last-child  .elementor-widget:last-of-type>.elementor-widget-container>.elementor-text-editor,
+#page .tavi-section>.elementor-container>.elementor-row >.elementor-element:last-child  .elementor-widget:last-of-type>.elementor-widget-container>ul{
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .elementor-tabs-wrapper{
+        display: flex !important;
+        flex-direction: row;
+    }
+    .elementor-tab-mobile-title{
+        display: none;
+    }
+}
+
 /*
     EOP
 **/
