@@ -355,6 +355,10 @@ span.elementor-icon-list-icon i {
     padding-bottom: 2px;
 }
 
+.elementor-widget-icon-list .elementor-icon-list-text u:hover{
+    color: var(--edwards-tavi);
+}
+
 .drop-shadow:hover {
     filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.25));
 }
