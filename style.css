@@ -668,7 +668,9 @@ div.woocommerce-message a.button{
     font-weight: normal;
     line-height: 20px;
 }
-.woocommerce #payment #place_order:hover, .woocommerce-page #payment #place_order:hover{
+
+.woocommerce #payment #place_order:hover, .woocommerce-page #payment #place_order:hover,
+.woocommerce #payment #place_order:focus, .woocommerce-page #payment #place_order:focus {
     background: var(--edwards-tavi) !important;
 }
 
