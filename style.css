@@ -1021,6 +1021,12 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     line-height: 24px !important;
 }
 
+@media (max-width: 768px) {
+    .elementor-widget-tabs .elementor-tab-desktop-title{
+        padding: 20px 10px !important;
+    }
+}
+
 /*
     EOP
 **/
