@@ -1029,6 +1029,10 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     }
 }
 
+#page .elementor-widget-tavi-archive-posts .elementor-post__excerpt p{
+    margin-bottom: 0;
+}
+
 /*
     EOP
 **/
