@@ -987,6 +987,10 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
 
 }
 
+#page .elementor-widget-Basket_Content_Product, #page .elementor-widget-Basket_Order_Product{
+    margin-bottom: 20px !important;
+}
+
 @media (max-width: 768px) {
     .elementor-tabs-wrapper{
         display: flex !important;
