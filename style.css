@@ -968,7 +968,7 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     padding-bottom: 0 !important;
 }
 
-#page .elementor-widget-icon-box {
+#page .elementor-widget-icon-box:not(.no-before-spacing) {
     margin-top: var(--m-spacing);
 }
 
