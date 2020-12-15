@@ -1017,6 +1017,10 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     width: 480px !important;
 }
 
+.elementor-widget-tabs .elementor-tab-desktop-title{
+    line-height: 24px !important;
+}
+
 /*
     EOP
 **/
