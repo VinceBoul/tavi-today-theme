@@ -1006,6 +1006,13 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
 
 }
 
+#wpadminbar .ab-top-menu>.menupop>.ab-sub-wrapper{
+    width: 500px !important;
+}
+#wp-admin-bar-elementor_edit_page .ab-submenu .ab-item{
+    width: 480px !important;
+}
+
 /*
     EOP
 **/
