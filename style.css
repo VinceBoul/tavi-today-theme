@@ -488,9 +488,9 @@ span.elementor-icon-list-icon i {
     width: 0;
 }
 
-#confirmnewsletterform {
+#confirmnewsletterform[style*="visibility: visible"] {
     height: 40px !important;
-    margin-top: -40px !important;
+    margin-top: 40px !important;
 }
 
 .mktoForm .mktoFormRow:nth-of-type(-n+3) {
