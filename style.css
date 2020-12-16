@@ -774,7 +774,7 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     .elementor-button-link {
         fill: var(--faded-dark-grey) !important;
         color: var(--faded-dark-grey) !important;
-        background-color: rgba(97, 206, 112, 0.00) !important;
+        background-color: rgba(97, 206, 112, 1.00) !important;
     }
 }
 
