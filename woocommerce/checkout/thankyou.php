@@ -45,7 +45,7 @@ defined('ABSPATH') || exit;
 
         <h1 class="elementor-heading-title elementor-size-default">Thank you!</h1>
 
-        <div class="elementor-text-editor elementor-clearfix"><p>Your order request was successful and is now being processed for you. You will receive a confirmation email for the materials ordered and your delivery address.</p></div>
+        <div class="elementor-text-editor elementor-clearfix"><p>Your order request was successful and is now being processed for you. You will receive a confirmation email for the resources ordered and your delivery address shortly.</p></div>
 
 
         <div class="rounded-button-container " _colorbg="neutral blue" style="width: max-content;height:max-content;">
