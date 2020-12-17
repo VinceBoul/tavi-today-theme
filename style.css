@@ -455,6 +455,10 @@ span.elementor-icon-list-icon i {
     margin-top: var(--m-spacing);
 }
 
+h5.newsletter-thanks-message {
+    color: var(--edwards-tavi);
+}
+
 .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
     background: #7A99AC !important;
     border: none !important;
@@ -489,8 +493,9 @@ span.elementor-icon-list-icon i {
 }
 
 #confirmnewsletterform[style*="visibility: visible"] {
-    height: 40px !important;
+    height: auto !important;
     margin-top: 40px !important;
+    margin-bottom: 50px;
 }
 
 .mktoForm .mktoFormRow:nth-of-type(-n+3) {
