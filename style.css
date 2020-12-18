@@ -408,6 +408,17 @@ a:hover{
     }
 }
 
+@media(max-width: 1024px) and (min-width: 768px){
+    .tavi-intro-showable{
+        width: 100% !important;
+    }
+
+    .tavi-intro-hiddable{
+        width: 0% !important;
+        display: none;
+    }
+}
+
 @media (min-width: 1025px) {
     #page .tavi-first-section{
         padding-top: var(--xl-spacing);
@@ -704,11 +715,14 @@ div.woocommerce-message a.button{
     flex-direction: column;
 }
 
-.woocommerce-billing-fields__field-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+@media(min-width: 768px) {
+
+    .woocommerce-billing-fields__field-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
 }
 
 #place_order{
@@ -994,6 +1008,13 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
 
 #page .elementor-widget-icon-box:not(.no-before-spacing) {
     margin-top: var(--m-spacing);
+}
+
+@media(max-width: 768px) {
+    #page .elementor-widget-icon-box:not(.no-before-spacing) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 #page .elementor-widget .elementor-icon-list-item{
