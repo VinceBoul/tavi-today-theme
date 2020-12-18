@@ -406,16 +406,16 @@ a:hover{
         padding-top: var(--l-spacing);
         padding-bottom: var(--l-spacing);
     }
+
+    .tavi-intro-hiddable{
+        width: 0% !important;
+        display: none;
+    }
 }
 
 @media(max-width: 1024px) and (min-width: 768px){
     .tavi-intro-showable{
         width: 100% !important;
-    }
-
-    .tavi-intro-hiddable{
-        width: 0% !important;
-        display: none;
     }
 }
 
