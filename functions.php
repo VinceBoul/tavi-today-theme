@@ -22,6 +22,13 @@ function theme_enqueue_styles()
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
+/**
+ * Removing format detection for phone numbers
+ */
+add_action( 'wp_head', function() {
+    echo '<meta name="format-detection" content="telephone=no">';
+});
+
 function tavi_today_register_elementor_core_locations($elementor_theme_manager)
 {
 
