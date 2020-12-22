@@ -2,19 +2,14 @@ $(function (){
 
 	var $searchInput = $('#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li.quadmenu-item-type-search input');
 
-	if (navigator.sayswho === "Edge 18") {
+	$searchInput.on('focus', function () {
+		$(this).closest('.quadmenu-item-content').find('.quadmenu-icon').hide();
+	}).on('focusout', function () {
+		$(this).val('');
+		$(this).closest('.quadmenu-item-content').find('.quadmenu-icon').show();
+	});
 
-		$searchInput.on('focus', function () {
-			console.log('focus in input');
-			$(this).closest('.quadmenu-item-content').find('.quadmenu-icon').hide();
-		}).on('focusout', function () {
-			console.log('focus out input');
-			$(this).val('');
-			$(this).closest('.quadmenu-item-content').find('.quadmenu-icon').show();
-		});
-	}
-
-	// Popup IE not supporter
+	// Popup IE not supported
 	if (navigator.sayswho.includes('IE')){
 		$('body').append(getIEPopup());
 		$('#close-ie-popup').on('click', function (){
@@ -25,8 +20,6 @@ $(function (){
 	var $searchIcon = $('.quadmenu-icon.dashicons-search');
 
 	$searchIcon.on('click', function (event) {
-		console.log('search icon click');
-
 		$(this).closest('.quadmenu-item-content').find('input').addClass('open-search-input');
 		$searchIcon.hide();
 		event.stopPropagation();
@@ -34,8 +27,6 @@ $(function (){
 
 	$(document).on('click', function(event) {
 		if (!$(event.target).hasClass('open-search-input') && $searchInput.hasClass('open-search-input')){
-			console.log('document click');
-
 			$searchInput.removeClass('open-search-input');
 			$searchIcon.show();
 
