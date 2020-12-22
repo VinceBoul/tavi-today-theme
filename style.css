@@ -1084,12 +1084,15 @@ a.parent-page-link:hover, a.parent-page-link:hover span, .parent-page-link a:hov
     margin-bottom: 0;
 }
 
-/**  Expand view link */
-.elementor-widget-wrap .elementor-widget.elementor-widget-icon-box .elementor-widget-container .elementor-icon-box-wrapper .elementor-icon-box-content .elementor-icon-box-title .expand-view{
-    font-size: var(--xs-font-size) !important;
-    color: var( --e-global-color-secondary ) !important;
-    font-weight: var(--font-weight-light) !important;
+@media (max-width: 768px) {
+    /**  Expand view link */
+    .expand-view.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a{
+        font-size: var(--xs-font-size) !important;
+        color: var( --e-global-color-secondary ) !important;
+        font-weight: var(--font-weight-light) !important;
+    }
 }
+
 
 /*
     EOP
