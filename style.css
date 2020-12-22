@@ -33,6 +33,7 @@
     3px -3px var(--primary-gray),
     -3px 3px var(--primary-gray),
     -3px -3px var(--primary-gray);
+
     /*font*/
     --default-line-height: 24px;
     --default-font-size: 16px;
@@ -47,6 +48,8 @@
     --s-spacing: 2rem;
     --xs-spacing: 1.5rem;
     --xxs-spacing: 1rem;
+
+
 }
 
 body, html{
@@ -390,6 +393,13 @@ a:hover{
     padding-top: var(--m-spacing);
     padding-bottom: var(--l-spacing);
 }
+
+@media (max-width: 767px) {
+    #page .tavi-section.tavi-basket-section{
+        padding-bottom: 0;
+    }
+}
+
 
 #page .tavi-section.under-main-section{
     padding-top: var(--ml-spacing);
