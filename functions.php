@@ -11,13 +11,13 @@ function theme_enqueue_styles()
     wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.3.1.slim.min.js');
     wp_enqueue_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js');
     wp_enqueue_script('BootstrapJS', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js');
-    wp_enqueue_script('font-awesome-JS', 'https://kit.fontawesome.com/6a46a5ec76.js');
+    wp_enqueue_script('font-awesome-JS-async', 'https://kit.fontawesome.com/6a46a5ec76.js');
 
   
     wp_enqueue_script('flickity-js', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js');
     wp_enqueue_style('flickity-css', 'https://unpkg.com/flickity@2/dist/flickity.min.css');
 
-    wp_enqueue_script('custom-script', get_theme_root_uri().'/tavi-today-theme/custom-script.js');
+    wp_enqueue_script('custom-script-async', get_theme_root_uri().'/tavi-today-theme/custom-script.js');
 }
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
