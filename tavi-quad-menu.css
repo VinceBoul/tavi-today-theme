@@ -154,6 +154,14 @@ a.elementor-button.elementor-button--checkout.elementor-size-md{
     font-weight: 700;
 }
 
+/**
+ * Coming Soon label
+ */
+.menu-coming-soon{
+    color: var(--primary-gray);
+    padding: 15px 0 15px 15px;
+}
+
 .coming-soon-label{
     background-color: rgba(255,255,255,0.25);
     border-radius: 5px;
